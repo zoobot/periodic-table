@@ -1,5 +1,5 @@
 # Periodic Table of the Elements
-This is a vanilla javascript/html/css Table of the Elements to display my paintings and the data of atoms.
+This is a vanilla javascript/html/css Table of the Elements to display my electron shell arrangement paintings and the data of atoms.
 
 ## Thanks for the data from here!!
 [@andrejewski](https://github.com/andrejewski)
