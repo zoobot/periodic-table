@@ -19,8 +19,8 @@ $ node dataWrangler.js > data.js
 
 | Atomic no. |	Element |	Symbol | Shorthand Electron Configuration | Full Electron Configuration	| Electron shell arrangement |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 |	Hydrogen | (H)	| 1s1	| 1s1	1 hydrogen electrons |
-| 2 |	Helium | (He)	| 1s2	| 1s2	2 | helium electrons |
+| 1 |	Hydrogen | (H)	| 1s1	| 1s1	| 1 | hydrogen electrons |
+| 2 |	Helium | (He)	| 1s2	| 1s2	| 2 | helium electrons |
 | 3 |	Lithium | (Li)	| [He] 2s1	| 1s2 2s1 |	2, 1 | lithium electrons |
 | 4 |	Beryllium | (Be)	| [He] 2s2	| 1s2 2s2 |	2, 2 | beryllium electrons |
 | 5 |	Boron | (B)	| [He] 2s2 2p1 |	1s2 2s2 2p1 |	2, 3 | boron electrons |
