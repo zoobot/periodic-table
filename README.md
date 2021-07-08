@@ -1,5 +1,6 @@
 # Periodic Table of the Elements
-This is a vanilla javascript/html/css Table of the Elements to display my electron shell arrangement paintings and the data of atoms.
+[periodictable.ai](https://periodictable.ai)
+I built this vanilla javascript/html/css Table of the Elements to keep track of the progress of my electron shell arrangement paintings.
 
 ## Thanks for the data from here!!
 [@andrejewski](https://github.com/andrejewski)
