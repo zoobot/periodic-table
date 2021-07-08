@@ -1,7 +1,7 @@
 # Periodic Table of the Elements
 I built this vanilla javascript/html/css Table of the Elements to keep track of the progress of my electron shell arrangement paintings.
 
-[periodictable.ai](https://periodictable.ai)
+# [periodictable.ai](https://periodictable.ai)
 
 ## Thanks for the data from here!!
 [@andrejewski](https://github.com/andrejewski)
