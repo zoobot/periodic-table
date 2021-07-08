@@ -137,3 +137,7 @@ $ node dataWrangler.js > data.js
 | 116 |	Livermorium | (Lv)	| [Rn] 5f14 6d10 7s2 7p4 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p4 |	2, 8, 18, 32, 32, 18, 6 | 
 | 117 |	Tennessine | (Ts)	| [Rn] 5f14 6d10 7s2 7p5 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p5 |	2, 8, 18, 32, 32, 18, 7 | 
 | 118 |	Oganesson | (Og)	| [Rn] 5f14 6d10 7s2 7p6 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p6 |	2, 8, 18, 32, 32 18, 8 |
+
+
+-----------------------------
+All assets/images ©Rose
