@@ -75,7 +75,7 @@ $ node dataWrangler.js > data.js
 | 54 |	Xenon | (Xe)	| [Kr] 4d10 5s2 5p6 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 |	2, 8, 18, 18, 8 | 
 | 55 |	Caesium | (Cs)	| [Xe] 6s1 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1 |	2, 8, 18, 18, 8, 1 | 
 | 56 |	Barium | (Ba)	| [Xe] 6s2 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2 |	2, 8, 18, 18, 8, 2 | 
-| 57 |	Lanthanum	[Xe] 5d1 6s2 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 5d1 6s2 |	2, 8, 18, 18, 9, 2 | 
+| 57 |	Lanthanum	| (La)	| [Xe] 5d1 6s2 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 5d1 6s2 |	2, 8, 18, 18, 9, 2 | 
 | 58 |	Cerium | (Ce)	| [Xe] 4f1 5d1 6s2 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f1 5d1 6s2 |	2, 8, 18, 19, 9, 2 | 
 | 59 |	Praseodymium | (Pr)	| [Xe] 4f3 6s2 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f3 6s2 |	2, 8, 18, 21, 8, 2 | 
 | 60 |	Neodymium | (Nd)	| [Xe] 4f4 6s2 |	1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f4 6s2 |	2, 8, 18, 22, 8, 2 | 
