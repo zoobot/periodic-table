@@ -5,9 +5,9 @@ Eat from the Table.<br>
 Run from the Table,<br>
 You'll end up right back at the Table.<br><br>
 
-I built this vanilla javascript/html/css Table of the Elements to keep track of the progress of my electron shell arrangement paintings.
-
 # [periodictable.ai](https://periodictable.ai)
+
+I built this vanilla javascript/html/css Table of the Elements to keep track of the progress of my electron shell arrangement paintings.
 
 ## Thanks for the data from here!!
 [@andrejewski](https://github.com/andrejewski)
