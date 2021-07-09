@@ -2,9 +2,8 @@
 The Table is the best and worst<br>
 The Table is the universe<br>
 Eat from the Table.<br>
-Run from the Table.<br>
-You'll end up<br>
-Right back at the Table.<br><br>
+Run from the Table,<br>
+You'll end up right back at the Table.<br><br>
 
 I built this vanilla javascript/html/css Table of the Elements to keep track of the progress of my electron shell arrangement paintings.
 
