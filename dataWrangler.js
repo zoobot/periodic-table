@@ -23,7 +23,14 @@ function joinData() {
       symbol: elementNew.symbol,
     };
 
+    elementNew.painting = {
+      medium: element.medium,
+      diameter: `${element.diameter} ft.`,
+      done: JSON.stringify(element.done)
+    };
+
     elementNew.groupings = {
+      // category: elementNew.category,
       groupBlock: elementNew.groupBlock,
       bondingType: elementNew.bondingType,
       standardState: elementNew.standardState,
@@ -37,7 +44,7 @@ function joinData() {
     };
 
     elementNew.arrangements = {
-      atomicMass: elementNew.atomicMass,
+      atomicMass: JSON.stringify(elementNew.atomicMass),
       atomicWeight: elementNew.atomicWeight,
       atomicWeightFull: elementNew.atomicWeightFull,
       atomicRadius: elementNew.atomicRadius,
@@ -52,7 +59,7 @@ function joinData() {
 
     return elementNew;
   });
-  console.log('const periodicTableData =');
+  console.log('const periodicTable =');
   console.dir(data3, { maxArrayLength: null });
   return data3;
 }

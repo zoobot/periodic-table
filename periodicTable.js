@@ -17,9 +17,11 @@ Right back at the Table. </p>`;
 //   || document.documentElement.clientHeight
 //   || document.body.clientHeight;
 
-// function createWikiUrl(element) {
-//   return `https://en.wikipedia.org/wiki/${periodictabledata[element]}`;
-// }
+function createWikiUrl(element) {
+  return `https://en.wikipedia.org/wiki/${element}`;
+}
+
+
 
 function createDOMElement(elementType, className, idName, parent,
   elementItem, eventListener, elementName, image) {
@@ -53,34 +55,85 @@ function createInfoDivs(elementObj, elementParent, atomicNumber, objName) {
 }
 
 function createElementExpanded(periodicElement, elementExpanded) {
-  const { atomicNumber } = periodicElement;
+  const { atomicNumber, name } = periodicElement;
   elementExpanded.textContent = '';
   elementExpanded.style.display = 'grid';
   const periodicTable = document.getElementById('periodic-table');
   periodicTable.style.position = 'relative';
   periodicTable.style.top = '255px';
-  createDOMElement('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
+  
+  const image = createDOMElement('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
     elementExpanded, null, null, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`);
+  image.href = createWikiUrl(name);
+  console.log(image)
 
   const elementDescription = createDOMElement('div', 'periodic-element__expanded-description',
     'periodic-element__expanded-description', elementExpanded);
 
   createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
   createInfoDivs(periodicElement.groupings, elementDescription, atomicNumber, '-groupings');
+
   createInfoDivs(periodicElement.arrangements, elementDescription, atomicNumber, '-arrangements');
+  createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
+}
+
+function touchHandler() {
+
+    var touchHndl = function() {
+        //call the clickHandler actually
+        clickHandler();
+        //remove the touchend haldler after perform
+        this.removeEventListener(touchHndl)
+    }
+    //attach a handler for touch end when you are in touchstart event
+    this.addEventListener(touchHndl);
+
 }
 
 function addClickHandler(elementGridCell, elementBody, periodicElement) {
-  elementGridCell.addEventListener('click', () => {
+  const clickHandler = () => {
     const elementExpanded = document.getElementsByClassName('periodic-element__expanded')[0];
     createElementExpanded(periodicElement, elementExpanded);
-  }, false);
+  }
+
+  elementGridCell.addEventListener('click', clickHandler, false);
+
+  if ('ontouchstart' in window) {
+    menu.addEventListener("touchstart", function() {
+        var touchHndl = function() {
+            //call the clickHandler actually
+            clickHandler();
+            //remove the touchend handler after perform
+            this.removeEventListener(touchHndl)
+        }
+        //attach a handler for touch end when you are in touchstart event
+        this.addEventListener(touchHndl);
+    });
 }
+}
+
+function backgroundColorFilter(groupBlock) {
+  const groupBlockLower = groupBlock.toLowerCase();
+  const series = {
+    'alkali metal': '#ce9882',
+    'alkaline earth metal': '#cea9a7',
+    'lanthanoid': '#72102a',
+    'actinoid': '#70515e',
+    'transition metal': '#4b3832',
+    'post-transition metal': '#898989',
+    'metalloid': '#1b85b8',
+    'nonmetal': '#1a472a',
+    'noble gas': '#1a2c4d',
+  }[groupBlockLower];
+  return series || '';
+}
+// #ffdc73
+// #e1cfb7
 
 function createElements(elementContainer, elementBody) {
   periodicTableData.map((element) => {
     const elementGridCell = document.getElementById(`c${element.webAttributes.tablecolumncol}-r${element.webAttributes.tablerowcol}`);
-    elementGridCell.style.backgroundColor = element.webAttributes.cpkHexColor;
+    elementGridCell.style.backgroundColor = backgroundColorFilter(element.groupBlock);
     elementGridCell.className = 'periodic-element';
     addClickHandler(elementGridCell, elementBody, element);
 

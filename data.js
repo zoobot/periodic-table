@@ -1,4 +1,5 @@
-const periodicTable = [
+const periodicTable =
+[
   {
     name: 'Hydrogen',
     atomicNumber: 1,
@@ -11,6 +12,9 @@ const periodicTable = [
     group: 1,
     period: 1,
     block: 's',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '1.00794(4)',
     electronicConfiguration: '1s1',
     electronegativity: 2.2,
@@ -32,9 +36,14 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: 'FFFFFF',
-      image: '001_hydrogen.jpg',
+      image: '001_hydrogen.jpg'
     },
     basics: { name: 'Hydrogen', atomicNumber: 1, symbol: 'H' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'true'
+    },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'diatomic',
@@ -45,10 +54,10 @@ const periodicTable = [
       electronAffinity: -73,
       electronegativity: 2.2,
       meltingPoint: 14,
-      boilingPoint: 20,
+      boilingPoint: 20
     },
     arrangements: {
-      atomicMass: '1.00794(4)',
+      atomicMass: '"1.00794(4)"',
       atomicWeight: '1.008',
       atomicWeightFull: '[1.00784, 1.00811]',
       atomicRadius: 37,
@@ -58,8 +67,8 @@ const periodicTable = [
       group: 1,
       period: 1,
       block: 's',
-      vanDelWaalsRadius: 120,
-    },
+      vanDelWaalsRadius: 120
+    }
   },
   {
     name: 'Helium',
@@ -73,6 +82,9 @@ const periodicTable = [
     group: 18,
     period: 1,
     block: 's',
+    medium: 'acrylic on masonite',
+    diameter: '2',
+    done: true,
     atomicMass: '4.002602(2)',
     electronicConfiguration: '1s2',
     electronegativity: '',
@@ -94,9 +106,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: 'D9FFFF',
-      image: '002_helium.jpg',
+      image: '002_helium.jpg'
     },
     basics: { name: 'Helium', atomicNumber: 2, symbol: 'He' },
+    painting: { medium: 'acrylic on masonite', diameter: '2 ft.', done: 'true' },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: 'atomic',
@@ -107,10 +120,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: 4,
+      boilingPoint: 4
     },
     arrangements: {
-      atomicMass: '4.002602(2)',
+      atomicMass: '"4.002602(2)"',
       atomicWeight: '4.0026',
       atomicWeightFull: '4.002602(2)',
       atomicRadius: 32,
@@ -120,8 +133,8 @@ const periodicTable = [
       group: 18,
       period: 1,
       block: 's',
-      vanDelWaalsRadius: 140,
-    },
+      vanDelWaalsRadius: 140
+    }
   },
   {
     name: 'Lithium',
@@ -135,6 +148,9 @@ const periodicTable = [
     group: 1,
     period: 2,
     block: 's',
+    medium: 'acrylic on masonite',
+    diameter: '1.5',
+    done: true,
     atomicMass: '6.941(2)',
     electronicConfiguration: '[He] 2s1',
     electronegativity: 0.98,
@@ -156,9 +172,14 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: 'CC80FF',
-      image: '003_lithium.jpg',
+      image: '003_lithium.jpg'
     },
     basics: { name: 'Lithium', atomicNumber: 3, symbol: 'Li' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '1.5 ft.',
+      done: 'true'
+    },
     groupings: {
       groupBlock: 'alkali metal',
       bondingType: 'metallic',
@@ -169,10 +190,10 @@ const periodicTable = [
       electronAffinity: -60,
       electronegativity: 0.98,
       meltingPoint: 454,
-      boilingPoint: 1615,
+      boilingPoint: 1615
     },
     arrangements: {
-      atomicMass: '6.941(2)',
+      atomicMass: '"6.941(2)"',
       atomicWeight: '6.94',
       atomicWeightFull: '[6.938, 6.997]',
       atomicRadius: 134,
@@ -182,8 +203,8 @@ const periodicTable = [
       group: 1,
       period: 2,
       block: 's',
-      vanDelWaalsRadius: 182,
-    },
+      vanDelWaalsRadius: 182
+    }
   },
   {
     name: 'Beryllium',
@@ -197,6 +218,9 @@ const periodicTable = [
     group: 2,
     period: 2,
     block: 's',
+    medium: 'acrylic on masonite',
+    diameter: '1.5',
+    done: true,
     atomicMass: '9.012182(3)',
     electronicConfiguration: '[He] 2s2',
     electronegativity: 1.57,
@@ -218,9 +242,14 @@ const periodicTable = [
       tablecolumncol: 2,
       visible: true,
       cpkHexColor: 'C2FF00',
-      image: '004_beryllium.jpg',
+      image: '004_beryllium.jpg'
     },
     basics: { name: 'Beryllium', atomicNumber: 4, symbol: 'Be' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '1.5 ft.',
+      done: 'true'
+    },
     groupings: {
       groupBlock: 'alkaline earth metal',
       bondingType: 'metallic',
@@ -231,10 +260,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 1.57,
       meltingPoint: 1560,
-      boilingPoint: 2743,
+      boilingPoint: 2743
     },
     arrangements: {
-      atomicMass: '9.012182(3)',
+      atomicMass: '"9.012182(3)"',
       atomicWeight: '9.0122',
       atomicWeightFull: '9.0121831(5)',
       atomicRadius: 90,
@@ -244,8 +273,8 @@ const periodicTable = [
       group: 2,
       period: 2,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Boron',
@@ -259,6 +288,9 @@ const periodicTable = [
     group: 13,
     period: 2,
     block: 'p',
+    medium: 'acrylic on masonite',
+    diameter: '2',
+    done: true,
     atomicMass: '10.811(7)',
     electronicConfiguration: '[He] 2s2 2p1',
     electronegativity: 2.04,
@@ -280,9 +312,10 @@ const periodicTable = [
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: 'FFB5B5',
-      image: '005_boron.jpg',
+      image: '005_boron.jpg'
     },
     basics: { name: 'Boron', atomicNumber: 5, symbol: 'B' },
+    painting: { medium: 'acrylic on masonite', diameter: '2 ft.', done: 'true' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'covalent network',
@@ -293,10 +326,10 @@ const periodicTable = [
       electronAffinity: -27,
       electronegativity: 2.04,
       meltingPoint: 2348,
-      boilingPoint: 4273,
+      boilingPoint: 4273
     },
     arrangements: {
-      atomicMass: '10.811(7)',
+      atomicMass: '"10.811(7)"',
       atomicWeight: '10.81',
       atomicWeightFull: '[10.806, 10.821]',
       atomicRadius: 82,
@@ -306,8 +339,8 @@ const periodicTable = [
       group: 13,
       period: 2,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Carbon',
@@ -321,6 +354,9 @@ const periodicTable = [
     group: 14,
     period: 2,
     block: 'p',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '12.0107(8)',
     electronicConfiguration: '[He] 2s2 2p2',
     electronegativity: 2.55,
@@ -342,9 +378,14 @@ const periodicTable = [
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: 909090,
-      image: '006_carbon.jpg',
+      image: '006_carbon.jpg'
     },
     basics: { name: 'Carbon', atomicNumber: 6, symbol: 'C' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'covalent network',
@@ -355,10 +396,10 @@ const periodicTable = [
       electronAffinity: -154,
       electronegativity: 2.55,
       meltingPoint: 3823,
-      boilingPoint: 4300,
+      boilingPoint: 4300
     },
     arrangements: {
-      atomicMass: '12.0107(8)',
+      atomicMass: '"12.0107(8)"',
       atomicWeight: '12.011',
       atomicWeightFull: '[12.0096, 12.0116]',
       atomicRadius: 77,
@@ -368,8 +409,8 @@ const periodicTable = [
       group: 14,
       period: 2,
       block: 'p',
-      vanDelWaalsRadius: 170,
-    },
+      vanDelWaalsRadius: 170
+    }
   },
   {
     name: 'Nitrogen',
@@ -383,6 +424,9 @@ const periodicTable = [
     group: 15,
     period: 2,
     block: 'p',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '14.0067(2)',
     electronicConfiguration: '[He] 2s2 2p3',
     electronegativity: 3.04,
@@ -404,9 +448,14 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: '3050F8',
-      image: '007_nitrogen.jpg',
+      image: '007_nitrogen.jpg'
     },
     basics: { name: 'Nitrogen', atomicNumber: 7, symbol: 'N' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'diatomic',
@@ -417,10 +466,10 @@ const periodicTable = [
       electronAffinity: -7,
       electronegativity: 3.04,
       meltingPoint: 63,
-      boilingPoint: 77,
+      boilingPoint: 77
     },
     arrangements: {
-      atomicMass: '14.0067(2)',
+      atomicMass: '"14.0067(2)"',
       atomicWeight: '14.007',
       atomicWeightFull: '[14.00643, 14.00728]',
       atomicRadius: 75,
@@ -430,8 +479,8 @@ const periodicTable = [
       group: 15,
       period: 2,
       block: 'p',
-      vanDelWaalsRadius: 155,
-    },
+      vanDelWaalsRadius: 155
+    }
   },
   {
     name: 'Oxygen',
@@ -445,6 +494,9 @@ const periodicTable = [
     group: 16,
     period: 2,
     block: 'p',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '15.9994(3)',
     electronicConfiguration: '[He] 2s2 2p4',
     electronegativity: 3.44,
@@ -466,9 +518,14 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: 'FF0D0D',
-      image: '008_oxygen.jpg',
+      image: '008_oxygen.jpg'
     },
     basics: { name: 'Oxygen', atomicNumber: 8, symbol: 'O' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'diatomic',
@@ -479,10 +536,10 @@ const periodicTable = [
       electronAffinity: -141,
       electronegativity: 3.44,
       meltingPoint: 55,
-      boilingPoint: 90,
+      boilingPoint: 90
     },
     arrangements: {
-      atomicMass: '15.9994(3)',
+      atomicMass: '"15.9994(3)"',
       atomicWeight: '15.999',
       atomicWeightFull: '[15.99903, 15.99977]',
       atomicRadius: 73,
@@ -492,8 +549,8 @@ const periodicTable = [
       group: 16,
       period: 2,
       block: 'p',
-      vanDelWaalsRadius: 152,
-    },
+      vanDelWaalsRadius: 152
+    }
   },
   {
     name: 'Fluorine',
@@ -507,6 +564,9 @@ const periodicTable = [
     group: 17,
     period: 2,
     block: 'p',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '18.9984032(5)',
     electronicConfiguration: '[He] 2s2 2p5',
     electronegativity: 3.98,
@@ -521,18 +581,23 @@ const periodicTable = [
     meltingPoint: 54,
     boilingPoint: 85,
     density: 0.001696,
-    groupBlock: 'halogen',
+    groupBlock: 'nonmetal',
     yearDiscovered: 1670,
     webAttributes: {
       tablerowcol: 2,
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: 9e+51,
-      image: '009_fluorine.jpg',
+      image: '009_fluorine.jpg'
     },
     basics: { name: 'Fluorine', atomicNumber: 9, symbol: 'F' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
-      groupBlock: 'halogen',
+      groupBlock: 'nonmetal',
       bondingType: 'atomic',
       standardState: 'gas',
       stateOfMatter: 'primordial',
@@ -541,10 +606,10 @@ const periodicTable = [
       electronAffinity: -328,
       electronegativity: 3.98,
       meltingPoint: 54,
-      boilingPoint: 85,
+      boilingPoint: 85
     },
     arrangements: {
-      atomicMass: '18.9984032(5)',
+      atomicMass: '"18.9984032(5)"',
       atomicWeight: '18.998',
       atomicWeightFull: '18.998403163(6)',
       atomicRadius: 71,
@@ -554,8 +619,8 @@ const periodicTable = [
       group: 17,
       period: 2,
       block: 'p',
-      vanDelWaalsRadius: 147,
-    },
+      vanDelWaalsRadius: 147
+    }
   },
   {
     name: 'Neon',
@@ -569,6 +634,9 @@ const periodicTable = [
     group: 18,
     period: 2,
     block: 'p',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '20.1797(6)',
     electronicConfiguration: '[He] 2s2 2p6',
     electronegativity: '',
@@ -590,9 +658,14 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: 'B3E3F5',
-      image: '010_neon.jpg',
+      image: '010_neon.jpg'
     },
     basics: { name: 'Neon', atomicNumber: 10, symbol: 'Ne' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'true'
+    },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: 'atomic',
@@ -603,10 +676,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: '',
       meltingPoint: 25,
-      boilingPoint: 27,
+      boilingPoint: 27
     },
     arrangements: {
-      atomicMass: '20.1797(6)',
+      atomicMass: '"20.1797(6)"',
       atomicWeight: '20.18',
       atomicWeightFull: '20.1797(6)',
       atomicRadius: 69,
@@ -616,8 +689,8 @@ const periodicTable = [
       group: 18,
       period: 2,
       block: 'p',
-      vanDelWaalsRadius: 154,
-    },
+      vanDelWaalsRadius: 154
+    }
   },
   {
     name: 'Sodium',
@@ -631,6 +704,9 @@ const periodicTable = [
     group: 1,
     period: 3,
     block: 's',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '22.98976928(2)',
     electronicConfiguration: '[Ne] 3s1',
     electronegativity: 0.93,
@@ -652,9 +728,14 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: 'AB5CF2',
-      image: '011_sodium.jpg',
+      image: '011_sodium.jpg'
     },
     basics: { name: 'Sodium', atomicNumber: 11, symbol: 'Na' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'true'
+    },
     groupings: {
       groupBlock: 'alkali metal',
       bondingType: 'metallic',
@@ -665,10 +746,10 @@ const periodicTable = [
       electronAffinity: -53,
       electronegativity: 0.93,
       meltingPoint: 371,
-      boilingPoint: 1156,
+      boilingPoint: 1156
     },
     arrangements: {
-      atomicMass: '22.98976928(2)',
+      atomicMass: '"22.98976928(2)"',
       atomicWeight: '22.99',
       atomicWeightFull: '22.98976928(2) ',
       atomicRadius: 154,
@@ -678,8 +759,8 @@ const periodicTable = [
       group: 1,
       period: 3,
       block: 's',
-      vanDelWaalsRadius: 227,
-    },
+      vanDelWaalsRadius: 227
+    }
   },
   {
     name: 'Magnesium',
@@ -693,6 +774,9 @@ const periodicTable = [
     group: 2,
     period: 3,
     block: 's',
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '24.3050(6)',
     electronicConfiguration: '[Ne] 3s2',
     electronegativity: 1.31,
@@ -714,9 +798,14 @@ const periodicTable = [
       tablecolumncol: 2,
       visible: true,
       cpkHexColor: '8AFF00',
-      image: '012_magnesium.jpg',
+      image: '012_magnesium.jpg'
     },
     basics: { name: 'Magnesium', atomicNumber: 12, symbol: 'Mg' },
+    painting: {
+      medium: 'acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'alkaline earth metal',
       bondingType: 'metallic',
@@ -727,10 +816,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 1.31,
       meltingPoint: 923,
-      boilingPoint: 1363,
+      boilingPoint: 1363
     },
     arrangements: {
-      atomicMass: '24.3050(6)',
+      atomicMass: '"24.3050(6)"',
       atomicWeight: '24.305',
       atomicWeightFull: '[24.304, 24.307] ',
       atomicRadius: 130,
@@ -740,8 +829,8 @@ const periodicTable = [
       group: 2,
       period: 3,
       block: 's',
-      vanDelWaalsRadius: 173,
-    },
+      vanDelWaalsRadius: 173
+    }
   },
   {
     name: 'Aluminum',
@@ -755,6 +844,9 @@ const periodicTable = [
     group: 13,
     period: 3,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '26.9815386(8)',
     electronicConfiguration: '[Ne] 3s2 3p1',
     electronegativity: 1.61,
@@ -769,18 +861,19 @@ const periodicTable = [
     meltingPoint: 933,
     boilingPoint: 2792,
     density: 2.7,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 'Ancient',
     webAttributes: {
       tablerowcol: 3,
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: 'BFA6A6',
-      image: '013_aluminum.jpg',
+      image: '013_aluminum.jpg'
     },
     basics: { name: 'Aluminum', atomicNumber: 13, symbol: 'Al' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -789,10 +882,10 @@ const periodicTable = [
       electronAffinity: -43,
       electronegativity: 1.61,
       meltingPoint: 933,
-      boilingPoint: 2792,
+      boilingPoint: 2792
     },
     arrangements: {
-      atomicMass: '26.9815386(8)',
+      atomicMass: '"26.9815386(8)"',
       atomicWeight: '26.982',
       atomicWeightFull: '26.9815384(3) ',
       atomicRadius: 118,
@@ -802,8 +895,8 @@ const periodicTable = [
       group: 13,
       period: 3,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Silicon',
@@ -817,6 +910,9 @@ const periodicTable = [
     group: 14,
     period: 3,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '28.0855(3)',
     electronicConfiguration: '[Ne] 3s2 3p2',
     electronegativity: 1.9,
@@ -838,9 +934,10 @@ const periodicTable = [
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: 'F0C8A0',
-      image: '014_silicon.jpg',
+      image: '014_silicon.jpg'
     },
     basics: { name: 'Silicon', atomicNumber: 14, symbol: 'Si' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'metallic',
@@ -851,10 +948,10 @@ const periodicTable = [
       electronAffinity: -134,
       electronegativity: 1.9,
       meltingPoint: 1687,
-      boilingPoint: 3173,
+      boilingPoint: 3173
     },
     arrangements: {
-      atomicMass: '28.0855(3)',
+      atomicMass: '"28.0855(3)"',
       atomicWeight: '28.085',
       atomicWeightFull: '[28.084, 28.086] ',
       atomicRadius: 111,
@@ -864,8 +961,8 @@ const periodicTable = [
       group: 14,
       period: 3,
       block: 'p',
-      vanDelWaalsRadius: 210,
-    },
+      vanDelWaalsRadius: 210
+    }
   },
   {
     name: 'Phosphorus',
@@ -879,6 +976,9 @@ const periodicTable = [
     group: 15,
     period: 3,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '30.973762(2)',
     electronicConfiguration: '[Ne] 3s2 3p3',
     electronegativity: 2.19,
@@ -900,9 +1000,10 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: 'FF8000',
-      image: '015_phosphorus.jpg',
+      image: '015_phosphorus.jpg'
     },
     basics: { name: 'Phosphorus', atomicNumber: 15, symbol: 'P' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'covalent network',
@@ -913,10 +1014,10 @@ const periodicTable = [
       electronAffinity: -72,
       electronegativity: 2.19,
       meltingPoint: 317,
-      boilingPoint: 554,
+      boilingPoint: 554
     },
     arrangements: {
-      atomicMass: '30.973762(2)',
+      atomicMass: '"30.973762(2)"',
       atomicWeight: '30.974',
       atomicWeightFull: '30.973761998(5) ',
       atomicRadius: 106,
@@ -926,8 +1027,8 @@ const periodicTable = [
       group: 15,
       period: 3,
       block: 'p',
-      vanDelWaalsRadius: 180,
-    },
+      vanDelWaalsRadius: 180
+    }
   },
   {
     name: 'Sulfur',
@@ -941,6 +1042,9 @@ const periodicTable = [
     group: 16,
     period: 3,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '32.065(5)',
     electronicConfiguration: '[Ne] 3s2 3p4',
     electronegativity: 2.58,
@@ -962,9 +1066,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: 'FFFF30',
-      image: '016_sulfur.jpg',
+      image: '016_sulfur.jpg'
     },
     basics: { name: 'Sulfur', atomicNumber: 16, symbol: 'S' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'covalent network',
@@ -975,10 +1080,10 @@ const periodicTable = [
       electronAffinity: -200,
       electronegativity: 2.58,
       meltingPoint: 388,
-      boilingPoint: 718,
+      boilingPoint: 718
     },
     arrangements: {
-      atomicMass: '32.065(5)',
+      atomicMass: '"32.065(5)"',
       atomicWeight: '32.06',
       atomicWeightFull: '[32.059, 32.076] ',
       atomicRadius: 102,
@@ -988,8 +1093,8 @@ const periodicTable = [
       group: 16,
       period: 3,
       block: 'p',
-      vanDelWaalsRadius: 180,
-    },
+      vanDelWaalsRadius: 180
+    }
   },
   {
     name: 'Chlorine',
@@ -1003,6 +1108,9 @@ const periodicTable = [
     group: 17,
     period: 3,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '35.453(2)',
     electronicConfiguration: '[Ne] 3s2 3p5',
     electronegativity: 3.16,
@@ -1017,18 +1125,19 @@ const periodicTable = [
     meltingPoint: 172,
     boilingPoint: 239,
     density: 0.003214,
-    groupBlock: 'halogen',
+    groupBlock: 'nonmetal',
     yearDiscovered: 1774,
     webAttributes: {
       tablerowcol: 3,
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: '1FF01F',
-      image: '017_chlorine.jpg',
+      image: '017_chlorine.jpg'
     },
     basics: { name: 'Chlorine', atomicNumber: 17, symbol: 'Cl' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
-      groupBlock: 'halogen',
+      groupBlock: 'nonmetal',
       bondingType: 'covalent network',
       standardState: 'gas',
       stateOfMatter: 'primordial',
@@ -1037,10 +1146,10 @@ const periodicTable = [
       electronAffinity: -349,
       electronegativity: 3.16,
       meltingPoint: 172,
-      boilingPoint: 239,
+      boilingPoint: 239
     },
     arrangements: {
-      atomicMass: '35.453(2)',
+      atomicMass: '"35.453(2)"',
       atomicWeight: '35.45',
       atomicWeightFull: '[35.446, 35.457] ',
       atomicRadius: 99,
@@ -1050,8 +1159,8 @@ const periodicTable = [
       group: 17,
       period: 3,
       block: 'p',
-      vanDelWaalsRadius: 175,
-    },
+      vanDelWaalsRadius: 175
+    }
   },
   {
     name: 'Argon',
@@ -1065,6 +1174,9 @@ const periodicTable = [
     group: 18,
     period: 3,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '39.948(1)',
     electronicConfiguration: '[Ne] 3s2 3p6',
     electronegativity: '',
@@ -1086,9 +1198,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: '80D1E3',
-      image: '018_argon.jpg',
+      image: '018_argon.jpg'
     },
     basics: { name: 'Argon', atomicNumber: 18, symbol: 'Ar' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: 'atomic',
@@ -1099,10 +1212,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: '',
       meltingPoint: 84,
-      boilingPoint: 87,
+      boilingPoint: 87
     },
     arrangements: {
-      atomicMass: '39.948(1)',
+      atomicMass: '"39.948(1)"',
       atomicWeight: '39.95',
       atomicWeightFull: '[39.792, 39.963] ',
       atomicRadius: 97,
@@ -1112,8 +1225,8 @@ const periodicTable = [
       group: 18,
       period: 3,
       block: 'p',
-      vanDelWaalsRadius: 188,
-    },
+      vanDelWaalsRadius: 188
+    }
   },
   {
     name: 'Potassium',
@@ -1127,6 +1240,9 @@ const periodicTable = [
     group: 1,
     period: 4,
     block: 's',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '39.0983(1)',
     electronicConfiguration: '[Ar] 4s1',
     electronegativity: 0.82,
@@ -1148,9 +1264,10 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: '8F40D4',
-      image: '019_potassium.jpg',
+      image: '019_potassium.jpg'
     },
     basics: { name: 'Potassium', atomicNumber: 19, symbol: 'K' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkali metal',
       bondingType: 'metallic',
@@ -1161,10 +1278,10 @@ const periodicTable = [
       electronAffinity: -48,
       electronegativity: 0.82,
       meltingPoint: 337,
-      boilingPoint: 1032,
+      boilingPoint: 1032
     },
     arrangements: {
-      atomicMass: '39.0983(1)',
+      atomicMass: '"39.0983(1)"',
       atomicWeight: '39.098',
       atomicWeightFull: '39.0983(1) ',
       atomicRadius: 196,
@@ -1174,8 +1291,8 @@ const periodicTable = [
       group: 1,
       period: 4,
       block: 's',
-      vanDelWaalsRadius: 275,
-    },
+      vanDelWaalsRadius: 275
+    }
   },
   {
     name: 'Calcium',
@@ -1189,6 +1306,9 @@ const periodicTable = [
     group: 2,
     period: 4,
     block: 's',
+    medium: 'oil on canvas',
+    diameter: '2',
+    done: true,
     atomicMass: '40.078(4)',
     electronicConfiguration: '[Ar] 4s2',
     electronegativity: 1,
@@ -1210,9 +1330,10 @@ const periodicTable = [
       tablecolumncol: 2,
       visible: true,
       cpkHexColor: '3DFF00',
-      image: '020_calcium.jpg',
+      image: '020_calcium.jpg'
     },
     basics: { name: 'Calcium', atomicNumber: 20, symbol: 'Ca' },
+    painting: { medium: 'oil on canvas', diameter: '2 ft.', done: 'true' },
     groupings: {
       groupBlock: 'alkaline earth metal',
       bondingType: 'metallic',
@@ -1223,10 +1344,10 @@ const periodicTable = [
       electronAffinity: -2,
       electronegativity: 1,
       meltingPoint: 1115,
-      boilingPoint: 1757,
+      boilingPoint: 1757
     },
     arrangements: {
-      atomicMass: '40.078(4)',
+      atomicMass: '"40.078(4)"',
       atomicWeight: '40.078',
       atomicWeightFull: '40.078(4) ',
       atomicRadius: 174,
@@ -1236,8 +1357,8 @@ const periodicTable = [
       group: 2,
       period: 4,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Scandium',
@@ -1251,6 +1372,9 @@ const periodicTable = [
     group: 3,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '44.955912(6)',
     electronicConfiguration: '[Ar] 3d1 4s2',
     electronegativity: 1.36,
@@ -1272,9 +1396,10 @@ const periodicTable = [
       tablecolumncol: 3,
       visible: true,
       cpkHexColor: 'E6E6E6',
-      image: '021_scandium.jpg',
+      image: '021_scandium.jpg'
     },
     basics: { name: 'Scandium', atomicNumber: 21, symbol: 'Sc' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1285,10 +1410,10 @@ const periodicTable = [
       electronAffinity: -18,
       electronegativity: 1.36,
       meltingPoint: 1814,
-      boilingPoint: 3103,
+      boilingPoint: 3103
     },
     arrangements: {
-      atomicMass: '44.955912(6)',
+      atomicMass: '"44.955912(6)"',
       atomicWeight: '44.956',
       atomicWeightFull: '44.955908(5) ',
       atomicRadius: 144,
@@ -1298,8 +1423,8 @@ const periodicTable = [
       group: 3,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Titanium',
@@ -1313,6 +1438,9 @@ const periodicTable = [
     group: 4,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '3',
+    done: false,
     atomicMass: '47.867(1)',
     electronicConfiguration: '[Ar] 3d2 4s2',
     electronegativity: 1.54,
@@ -1334,9 +1462,10 @@ const periodicTable = [
       tablecolumncol: 4,
       visible: true,
       cpkHexColor: 'BFC2C7',
-      image: '022_titanium.jpg',
+      image: '022_titanium.jpg'
     },
     basics: { name: 'Titanium', atomicNumber: 22, symbol: 'Ti' },
+    painting: { medium: 'oil on masonite', diameter: '3 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1347,10 +1476,10 @@ const periodicTable = [
       electronAffinity: -8,
       electronegativity: 1.54,
       meltingPoint: 1941,
-      boilingPoint: 3560,
+      boilingPoint: 3560
     },
     arrangements: {
-      atomicMass: '47.867(1)',
+      atomicMass: '"47.867(1)"',
       atomicWeight: '47.867',
       atomicWeightFull: '47.867(1) ',
       atomicRadius: 136,
@@ -1360,8 +1489,8 @@ const periodicTable = [
       group: 4,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Vanadium',
@@ -1375,6 +1504,9 @@ const periodicTable = [
     group: 5,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '50.9415(1)',
     electronicConfiguration: '[Ar] 3d3 4s2',
     electronegativity: 1.63,
@@ -1396,9 +1528,10 @@ const periodicTable = [
       tablecolumncol: 5,
       visible: true,
       cpkHexColor: 'A6A6AB',
-      image: '023_vanadium.jpg',
+      image: '023_vanadium.jpg'
     },
     basics: { name: 'Vanadium', atomicNumber: 23, symbol: 'V' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1409,10 +1542,10 @@ const periodicTable = [
       electronAffinity: -51,
       electronegativity: 1.63,
       meltingPoint: 2183,
-      boilingPoint: 3680,
+      boilingPoint: 3680
     },
     arrangements: {
-      atomicMass: '50.9415(1)',
+      atomicMass: '"50.9415(1)"',
       atomicWeight: '50.942',
       atomicWeightFull: '50.9415(1) ',
       atomicRadius: 125,
@@ -1422,8 +1555,8 @@ const periodicTable = [
       group: 5,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Chromium',
@@ -1437,6 +1570,9 @@ const periodicTable = [
     group: 6,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '51.9961(6)',
     electronicConfiguration: '[Ar] 3d5 4s1',
     electronegativity: 1.66,
@@ -1458,9 +1594,10 @@ const periodicTable = [
       tablecolumncol: 6,
       visible: true,
       cpkHexColor: '8A99C7',
-      image: '024_chromium.jpg',
+      image: '024_chromium.jpg'
     },
     basics: { name: 'Chromium', atomicNumber: 24, symbol: 'Cr' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1471,10 +1608,10 @@ const periodicTable = [
       electronAffinity: -64,
       electronegativity: 1.66,
       meltingPoint: 2180,
-      boilingPoint: 2944,
+      boilingPoint: 2944
     },
     arrangements: {
-      atomicMass: '51.9961(6)',
+      atomicMass: '"51.9961(6)"',
       atomicWeight: '51.996',
       atomicWeightFull: '51.9961(6) ',
       atomicRadius: 127,
@@ -1484,8 +1621,8 @@ const periodicTable = [
       group: 6,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Manganese',
@@ -1499,6 +1636,9 @@ const periodicTable = [
     group: 7,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '54.938045(5)',
     electronicConfiguration: '[Ar] 3d5 4s2',
     electronegativity: 1.55,
@@ -1520,9 +1660,10 @@ const periodicTable = [
       tablecolumncol: 7,
       visible: true,
       cpkHexColor: '9C7AC7',
-      image: '025_manganese.jpg',
+      image: '025_manganese.jpg'
     },
     basics: { name: 'Manganese', atomicNumber: 25, symbol: 'Mn' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1533,10 +1674,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 1.55,
       meltingPoint: 1519,
-      boilingPoint: 2334,
+      boilingPoint: 2334
     },
     arrangements: {
-      atomicMass: '54.938045(5)',
+      atomicMass: '"54.938045(5)"',
       atomicWeight: '54.938',
       atomicWeightFull: '54.938043(2) ',
       atomicRadius: 139,
@@ -1546,8 +1687,8 @@ const periodicTable = [
       group: 7,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Iron',
@@ -1561,6 +1702,9 @@ const periodicTable = [
     group: 8,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '55.845(2)',
     electronicConfiguration: '[Ar] 3d6 4s2',
     electronegativity: 1.83,
@@ -1582,9 +1726,10 @@ const periodicTable = [
       tablecolumncol: 8,
       visible: true,
       cpkHexColor: 'E06633',
-      image: '026_iron.jpg',
+      image: '026_iron.jpg'
     },
     basics: { name: 'Iron', atomicNumber: 26, symbol: 'Fe' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1595,10 +1740,10 @@ const periodicTable = [
       electronAffinity: -16,
       electronegativity: 1.83,
       meltingPoint: 1811,
-      boilingPoint: 3134,
+      boilingPoint: 3134
     },
     arrangements: {
-      atomicMass: '55.845(2)',
+      atomicMass: '"55.845(2)"',
       atomicWeight: '55.845',
       atomicWeightFull: '55.845(2) ',
       atomicRadius: 125,
@@ -1608,8 +1753,8 @@ const periodicTable = [
       group: 8,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Cobalt',
@@ -1623,6 +1768,9 @@ const periodicTable = [
     group: 9,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '58.933195(5)',
     electronicConfiguration: '[Ar] 3d7 4s2',
     electronegativity: 1.88,
@@ -1644,9 +1792,10 @@ const periodicTable = [
       tablecolumncol: 9,
       visible: true,
       cpkHexColor: 'F090A0',
-      image: '027_cobalt.jpg',
+      image: '027_cobalt.jpg'
     },
     basics: { name: 'Cobalt', atomicNumber: 27, symbol: 'Co' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1657,10 +1806,10 @@ const periodicTable = [
       electronAffinity: -64,
       electronegativity: 1.88,
       meltingPoint: 1768,
-      boilingPoint: 3200,
+      boilingPoint: 3200
     },
     arrangements: {
-      atomicMass: '58.933195(5)',
+      atomicMass: '"58.933195(5)"',
       atomicWeight: '58.933',
       atomicWeightFull: '58.933194(3) ',
       atomicRadius: 126,
@@ -1670,8 +1819,8 @@ const periodicTable = [
       group: 9,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Nickel',
@@ -1685,6 +1834,9 @@ const periodicTable = [
     group: 10,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '58.6934(4)',
     electronicConfiguration: '[Ar] 3d8 4s2',
     electronegativity: 1.91,
@@ -1706,9 +1858,10 @@ const periodicTable = [
       tablecolumncol: 10,
       visible: true,
       cpkHexColor: '50D050',
-      image: '028_nickel.jpg',
+      image: '028_nickel.jpg'
     },
     basics: { name: 'Nickel', atomicNumber: 28, symbol: 'Ni' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1719,10 +1872,10 @@ const periodicTable = [
       electronAffinity: -112,
       electronegativity: 1.91,
       meltingPoint: 1728,
-      boilingPoint: 3186,
+      boilingPoint: 3186
     },
     arrangements: {
-      atomicMass: '58.6934(4)',
+      atomicMass: '"58.6934(4)"',
       atomicWeight: '58.693',
       atomicWeightFull: '58.6934(4) ',
       atomicRadius: 121,
@@ -1732,8 +1885,8 @@ const periodicTable = [
       group: 10,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: 163,
-    },
+      vanDelWaalsRadius: 163
+    }
   },
   {
     name: 'Copper',
@@ -1747,6 +1900,9 @@ const periodicTable = [
     group: 11,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '63.546(3)',
     electronicConfiguration: '[Ar] 3d10 4s1',
     electronegativity: 1.9,
@@ -1768,9 +1924,10 @@ const periodicTable = [
       tablecolumncol: 11,
       visible: true,
       cpkHexColor: 'C88033',
-      image: '029_copper.jpg',
+      image: '029_copper.jpg'
     },
     basics: { name: 'Copper', atomicNumber: 29, symbol: 'Cu' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1781,10 +1938,10 @@ const periodicTable = [
       electronAffinity: -118,
       electronegativity: 1.9,
       meltingPoint: 1358,
-      boilingPoint: 3200,
+      boilingPoint: 3200
     },
     arrangements: {
-      atomicMass: '63.546(3)',
+      atomicMass: '"63.546(3)"',
       atomicWeight: '63.546',
       atomicWeightFull: '63.546(3) ',
       atomicRadius: 138,
@@ -1794,8 +1951,8 @@ const periodicTable = [
       group: 11,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: 140,
-    },
+      vanDelWaalsRadius: 140
+    }
   },
   {
     name: 'Zinc',
@@ -1809,6 +1966,9 @@ const periodicTable = [
     group: 12,
     period: 4,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '65.38(2)',
     electronicConfiguration: '[Ar] 3d10 4s2',
     electronegativity: 1.65,
@@ -1830,9 +1990,10 @@ const periodicTable = [
       tablecolumncol: 12,
       visible: true,
       cpkHexColor: '7D80B0',
-      image: '030_zinc.jpg',
+      image: '030_zinc.jpg'
     },
     basics: { name: 'Zinc', atomicNumber: 30, symbol: 'Zn' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -1843,10 +2004,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 1.65,
       meltingPoint: 693,
-      boilingPoint: 1180,
+      boilingPoint: 1180
     },
     arrangements: {
-      atomicMass: '65.38(2)',
+      atomicMass: '"65.38(2)"',
       atomicWeight: '65.38',
       atomicWeightFull: '65.38(2) ',
       atomicRadius: 131,
@@ -1856,8 +2017,8 @@ const periodicTable = [
       group: 12,
       period: 4,
       block: 'd',
-      vanDelWaalsRadius: 139,
-    },
+      vanDelWaalsRadius: 139
+    }
   },
   {
     name: 'Gallium',
@@ -1871,6 +2032,9 @@ const periodicTable = [
     group: 13,
     period: 4,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '69.723(1)',
     electronicConfiguration: '[Ar] 3d10 4s2 4p1',
     electronegativity: 1.81,
@@ -1885,18 +2049,19 @@ const periodicTable = [
     meltingPoint: 303,
     boilingPoint: 2477,
     density: 5.904,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 1875,
     webAttributes: {
       tablerowcol: 4,
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: 'C28F8F',
-      image: '031_gallium.jpg',
+      image: '031_gallium.jpg'
     },
     basics: { name: 'Gallium', atomicNumber: 31, symbol: 'Ga' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -1905,10 +2070,10 @@ const periodicTable = [
       electronAffinity: -29,
       electronegativity: 1.81,
       meltingPoint: 303,
-      boilingPoint: 2477,
+      boilingPoint: 2477
     },
     arrangements: {
-      atomicMass: '69.723(1)',
+      atomicMass: '"69.723(1)"',
       atomicWeight: '69.723',
       atomicWeightFull: '69.723(1) ',
       atomicRadius: 126,
@@ -1918,8 +2083,8 @@ const periodicTable = [
       group: 13,
       period: 4,
       block: 'p',
-      vanDelWaalsRadius: 187,
-    },
+      vanDelWaalsRadius: 187
+    }
   },
   {
     name: 'Germanium',
@@ -1933,6 +2098,9 @@ const periodicTable = [
     group: 14,
     period: 4,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '72.64(1)',
     electronicConfiguration: '[Ar] 3d10 4s2 4p2',
     electronegativity: 2.01,
@@ -1954,9 +2122,10 @@ const periodicTable = [
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: '668F8F',
-      image: '032_germanium.jpg',
+      image: '032_germanium.jpg'
     },
     basics: { name: 'Germanium', atomicNumber: 32, symbol: 'Ge' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'metallic',
@@ -1967,10 +2136,10 @@ const periodicTable = [
       electronAffinity: -119,
       electronegativity: 2.01,
       meltingPoint: 1211,
-      boilingPoint: 3093,
+      boilingPoint: 3093
     },
     arrangements: {
-      atomicMass: '72.64(1)',
+      atomicMass: '"72.64(1)"',
       atomicWeight: '72.63',
       atomicWeightFull: '72.630(8) ',
       atomicRadius: 122,
@@ -1980,8 +2149,8 @@ const periodicTable = [
       group: 14,
       period: 4,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Arsenic',
@@ -1995,6 +2164,9 @@ const periodicTable = [
     group: 15,
     period: 4,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '74.92160(2)',
     electronicConfiguration: '[Ar] 3d10 4s2 4p3',
     electronegativity: 2.18,
@@ -2016,9 +2188,10 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: 'BD80E3',
-      image: '033_arsenic.jpg',
+      image: '033_arsenic.jpg'
     },
     basics: { name: 'Arsenic', atomicNumber: 33, symbol: 'As' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'metallic',
@@ -2029,10 +2202,10 @@ const periodicTable = [
       electronAffinity: -78,
       electronegativity: 2.18,
       meltingPoint: 1090,
-      boilingPoint: 887,
+      boilingPoint: 887
     },
     arrangements: {
-      atomicMass: '74.92160(2)',
+      atomicMass: '"74.92160(2)"',
       atomicWeight: '74.922',
       atomicWeightFull: '74.921595(6) ',
       atomicRadius: 119,
@@ -2042,8 +2215,8 @@ const periodicTable = [
       group: 15,
       period: 4,
       block: 'p',
-      vanDelWaalsRadius: 185,
-    },
+      vanDelWaalsRadius: 185
+    }
   },
   {
     name: 'Selenium',
@@ -2057,6 +2230,9 @@ const periodicTable = [
     group: 16,
     period: 4,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '78.96(3)',
     electronicConfiguration: '[Ar] 3d10 4s2 4p4',
     electronegativity: 2.55,
@@ -2078,9 +2254,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: 'FFA100',
-      image: '034_selenium.jpg',
+      image: '034_selenium.jpg'
     },
     basics: { name: 'Selenium', atomicNumber: 34, symbol: 'Se' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'nonmetal',
       bondingType: 'metallic',
@@ -2091,10 +2268,10 @@ const periodicTable = [
       electronAffinity: -195,
       electronegativity: 2.55,
       meltingPoint: 494,
-      boilingPoint: 958,
+      boilingPoint: 958
     },
     arrangements: {
-      atomicMass: '78.96(3)',
+      atomicMass: '"78.96(3)"',
       atomicWeight: '78.971',
       atomicWeightFull: '78.971(8) ',
       atomicRadius: 116,
@@ -2104,8 +2281,8 @@ const periodicTable = [
       group: 16,
       period: 4,
       block: 'p',
-      vanDelWaalsRadius: 190,
-    },
+      vanDelWaalsRadius: 190
+    }
   },
   {
     name: 'Bromine',
@@ -2119,6 +2296,9 @@ const periodicTable = [
     group: 17,
     period: 4,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '79.904(1)',
     electronicConfiguration: '[Ar] 3d10 4s2 4p5',
     electronegativity: 2.96,
@@ -2133,18 +2313,19 @@ const periodicTable = [
     meltingPoint: 266,
     boilingPoint: 332,
     density: 3.12,
-    groupBlock: 'halogen',
+    groupBlock: 'nonmetal',
     yearDiscovered: 1826,
     webAttributes: {
       tablerowcol: 4,
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: 'A62929',
-      image: '035_bromine.jpg',
+      image: '035_bromine.jpg'
     },
     basics: { name: 'Bromine', atomicNumber: 35, symbol: 'Br' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'halogen',
+      groupBlock: 'nonmetal',
       bondingType: 'covalent network',
       standardState: 'liquid',
       stateOfMatter: 'primordial',
@@ -2153,10 +2334,10 @@ const periodicTable = [
       electronAffinity: -325,
       electronegativity: 2.96,
       meltingPoint: 266,
-      boilingPoint: 332,
+      boilingPoint: 332
     },
     arrangements: {
-      atomicMass: '79.904(1)',
+      atomicMass: '"79.904(1)"',
       atomicWeight: '79.904',
       atomicWeightFull: '[79.901, 79.907] ',
       atomicRadius: 114,
@@ -2166,8 +2347,8 @@ const periodicTable = [
       group: 17,
       period: 4,
       block: 'p',
-      vanDelWaalsRadius: 185,
-    },
+      vanDelWaalsRadius: 185
+    }
   },
   {
     name: 'Krypton',
@@ -2181,6 +2362,9 @@ const periodicTable = [
     group: 18,
     period: 4,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '83.798(2)',
     electronicConfiguration: '[Ar] 3d10 4s2 4p6',
     electronegativity: '',
@@ -2202,9 +2386,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: '5CB8D1',
-      image: '036_krypton.jpg',
+      image: '036_krypton.jpg'
     },
     basics: { name: 'Krypton', atomicNumber: 36, symbol: 'Kr' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: 'atomic',
@@ -2215,10 +2400,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: '',
       meltingPoint: 116,
-      boilingPoint: 120,
+      boilingPoint: 120
     },
     arrangements: {
-      atomicMass: '83.798(2)',
+      atomicMass: '"83.798(2)"',
       atomicWeight: '83.798',
       atomicWeightFull: '83.798(2) ',
       atomicRadius: 110,
@@ -2228,8 +2413,8 @@ const periodicTable = [
       group: 18,
       period: 4,
       block: 'p',
-      vanDelWaalsRadius: 202,
-    },
+      vanDelWaalsRadius: 202
+    }
   },
   {
     name: 'Rubidium',
@@ -2243,6 +2428,9 @@ const periodicTable = [
     group: 1,
     period: 5,
     block: 's',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '85.4678(3)',
     electronicConfiguration: '[Kr] 5s1',
     electronegativity: 0.82,
@@ -2264,9 +2452,10 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: '702EB0',
-      image: '037_rubidium.jpg',
+      image: '037_rubidium.jpg'
     },
     basics: { name: 'Rubidium', atomicNumber: 37, symbol: 'Rb' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkali metal',
       bondingType: 'metallic',
@@ -2277,10 +2466,10 @@ const periodicTable = [
       electronAffinity: -47,
       electronegativity: 0.82,
       meltingPoint: 312,
-      boilingPoint: 961,
+      boilingPoint: 961
     },
     arrangements: {
-      atomicMass: '85.4678(3)',
+      atomicMass: '"85.4678(3)"',
       atomicWeight: '85.468',
       atomicWeightFull: '85.4678(3) ',
       atomicRadius: 211,
@@ -2290,8 +2479,8 @@ const periodicTable = [
       group: 1,
       period: 5,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Strontium',
@@ -2305,6 +2494,9 @@ const periodicTable = [
     group: 2,
     period: 5,
     block: 's',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '87.62(1)',
     electronicConfiguration: '[Kr] 5s2',
     electronegativity: 0.95,
@@ -2326,9 +2518,10 @@ const periodicTable = [
       tablecolumncol: 2,
       visible: true,
       cpkHexColor: '00FF00',
-      image: '038_strontium.jpg',
+      image: '038_strontium.jpg'
     },
     basics: { name: 'Strontium', atomicNumber: 38, symbol: 'Sr' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkaline earth metal',
       bondingType: 'metallic',
@@ -2339,10 +2532,10 @@ const periodicTable = [
       electronAffinity: -5,
       electronegativity: 0.95,
       meltingPoint: 1050,
-      boilingPoint: 1655,
+      boilingPoint: 1655
     },
     arrangements: {
-      atomicMass: '87.62(1)',
+      atomicMass: '"87.62(1)"',
       atomicWeight: '87.62',
       atomicWeightFull: '87.62(1) ',
       atomicRadius: 192,
@@ -2352,8 +2545,8 @@ const periodicTable = [
       group: 2,
       period: 5,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Yttrium',
@@ -2367,6 +2560,9 @@ const periodicTable = [
     group: 3,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '88.90585(2)',
     electronicConfiguration: '[Kr] 4d1 5s2',
     electronegativity: 1.22,
@@ -2388,9 +2584,10 @@ const periodicTable = [
       tablecolumncol: 3,
       visible: true,
       cpkHexColor: '94FFFF',
-      image: '039_yttrium.jpg',
+      image: '039_yttrium.jpg'
     },
     basics: { name: 'Yttrium', atomicNumber: 39, symbol: 'Y' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2401,10 +2598,10 @@ const periodicTable = [
       electronAffinity: -30,
       electronegativity: 1.22,
       meltingPoint: 1799,
-      boilingPoint: 3618,
+      boilingPoint: 3618
     },
     arrangements: {
-      atomicMass: '88.90585(2)',
+      atomicMass: '"88.90585(2)"',
       atomicWeight: '88.906',
       atomicWeightFull: '88.90584(1) ',
       atomicRadius: 162,
@@ -2414,8 +2611,8 @@ const periodicTable = [
       group: 3,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Zirconium',
@@ -2429,6 +2626,9 @@ const periodicTable = [
     group: 4,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '91.224(2)',
     electronicConfiguration: '[Kr] 4d2 5s2',
     electronegativity: 1.33,
@@ -2450,9 +2650,10 @@ const periodicTable = [
       tablecolumncol: 4,
       visible: true,
       cpkHexColor: '94E0E0',
-      image: '040_zirconium.jpg',
+      image: '040_zirconium.jpg'
     },
     basics: { name: 'Zirconium', atomicNumber: 40, symbol: 'Zr' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2463,10 +2664,10 @@ const periodicTable = [
       electronAffinity: -41,
       electronegativity: 1.33,
       meltingPoint: 2128,
-      boilingPoint: 4682,
+      boilingPoint: 4682
     },
     arrangements: {
-      atomicMass: '91.224(2)',
+      atomicMass: '"91.224(2)"',
       atomicWeight: '91.224',
       atomicWeightFull: '91.224(2) ',
       atomicRadius: 148,
@@ -2476,8 +2677,8 @@ const periodicTable = [
       group: 4,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Niobium',
@@ -2491,6 +2692,9 @@ const periodicTable = [
     group: 5,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '92.90638(2)',
     electronicConfiguration: '[Kr] 4d4 5s1',
     electronegativity: 1.6,
@@ -2512,9 +2716,10 @@ const periodicTable = [
       tablecolumncol: 5,
       visible: true,
       cpkHexColor: '73C2C9',
-      image: '041_niobium.jpg',
+      image: '041_niobium.jpg'
     },
     basics: { name: 'Niobium', atomicNumber: 41, symbol: 'Nb' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2525,10 +2730,10 @@ const periodicTable = [
       electronAffinity: -86,
       electronegativity: 1.6,
       meltingPoint: 2750,
-      boilingPoint: 5017,
+      boilingPoint: 5017
     },
     arrangements: {
-      atomicMass: '92.90638(2)',
+      atomicMass: '"92.90638(2)"',
       atomicWeight: '92.906',
       atomicWeightFull: '92.90637(1) ',
       atomicRadius: 137,
@@ -2538,8 +2743,8 @@ const periodicTable = [
       group: 5,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Molybdenum',
@@ -2553,6 +2758,9 @@ const periodicTable = [
     group: 6,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '95.96(2)',
     electronicConfiguration: '[Kr] 4d5 5s1',
     electronegativity: 2.16,
@@ -2574,9 +2782,10 @@ const periodicTable = [
       tablecolumncol: 6,
       visible: true,
       cpkHexColor: '54B5B5',
-      image: '042_molybdenum.jpg',
+      image: '042_molybdenum.jpg'
     },
     basics: { name: 'Molybdenum', atomicNumber: 42, symbol: 'Mo' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2587,10 +2796,10 @@ const periodicTable = [
       electronAffinity: -72,
       electronegativity: 2.16,
       meltingPoint: 2896,
-      boilingPoint: 4912,
+      boilingPoint: 4912
     },
     arrangements: {
-      atomicMass: '95.96(2)',
+      atomicMass: '"95.96(2)"',
       atomicWeight: '95.95',
       atomicWeightFull: '95.95(1) ',
       atomicRadius: 145,
@@ -2600,8 +2809,8 @@ const periodicTable = [
       group: 6,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Technetium',
@@ -2615,7 +2824,10 @@ const periodicTable = [
     group: 7,
     period: 5,
     block: 'd',
-    atomicMass: [98],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 98 ],
     electronicConfiguration: '[Kr] 4d5 5s2',
     electronegativity: 1.9,
     atomicRadius: 156,
@@ -2636,9 +2848,10 @@ const periodicTable = [
       tablecolumncol: 7,
       visible: true,
       cpkHexColor: '3B9E9E',
-      image: '043_technetium.jpg',
+      image: '043_technetium.jpg'
     },
     basics: { name: 'Technetium', atomicNumber: 43, symbol: 'Tc' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2649,10 +2862,10 @@ const periodicTable = [
       electronAffinity: -53,
       electronegativity: 1.9,
       meltingPoint: 2430,
-      boilingPoint: 4538,
+      boilingPoint: 4538
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[98]',
       atomicWeight: '[97]',
       atomicWeightFull: '-',
       atomicRadius: 156,
@@ -2662,8 +2875,8 @@ const periodicTable = [
       group: 7,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Ruthenium',
@@ -2677,6 +2890,9 @@ const periodicTable = [
     group: 8,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '101.07(2)',
     electronicConfiguration: '[Kr] 4d7 5s1',
     electronegativity: 2.2,
@@ -2698,9 +2914,10 @@ const periodicTable = [
       tablecolumncol: 8,
       visible: true,
       cpkHexColor: '248F8F',
-      image: '044_ruthenium.jpg',
+      image: '044_ruthenium.jpg'
     },
     basics: { name: 'Ruthenium', atomicNumber: 44, symbol: 'Ru' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2711,10 +2928,10 @@ const periodicTable = [
       electronAffinity: -101,
       electronegativity: 2.2,
       meltingPoint: 2607,
-      boilingPoint: 4423,
+      boilingPoint: 4423
     },
     arrangements: {
-      atomicMass: '101.07(2)',
+      atomicMass: '"101.07(2)"',
       atomicWeight: '101.07',
       atomicWeightFull: '101.07(2) ',
       atomicRadius: 126,
@@ -2724,8 +2941,8 @@ const periodicTable = [
       group: 8,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Rhodium',
@@ -2739,6 +2956,9 @@ const periodicTable = [
     group: 9,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '102.90550(2)',
     electronicConfiguration: '[Kr] 4d8 5s1',
     electronegativity: 2.28,
@@ -2760,9 +2980,10 @@ const periodicTable = [
       tablecolumncol: 9,
       visible: true,
       cpkHexColor: '0A7D8C',
-      image: '045_rhodium.jpg',
+      image: '045_rhodium.jpg'
     },
     basics: { name: 'Rhodium', atomicNumber: 45, symbol: 'Rh' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2773,10 +2994,10 @@ const periodicTable = [
       electronAffinity: -110,
       electronegativity: 2.28,
       meltingPoint: 2237,
-      boilingPoint: 3968,
+      boilingPoint: 3968
     },
     arrangements: {
-      atomicMass: '102.90550(2)',
+      atomicMass: '"102.90550(2)"',
       atomicWeight: '102.91',
       atomicWeightFull: '102.90549(2) ',
       atomicRadius: 135,
@@ -2786,8 +3007,8 @@ const periodicTable = [
       group: 9,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Palladium',
@@ -2801,6 +3022,9 @@ const periodicTable = [
     group: 10,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '106.42(1)',
     electronicConfiguration: '[Kr] 4d10',
     electronegativity: 2.2,
@@ -2822,9 +3046,10 @@ const periodicTable = [
       tablecolumncol: 10,
       visible: true,
       cpkHexColor: 6985,
-      image: '046_palladium.jpg',
+      image: '046_palladium.jpg'
     },
     basics: { name: 'Palladium', atomicNumber: 46, symbol: 'Pd' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2835,10 +3060,10 @@ const periodicTable = [
       electronAffinity: -54,
       electronegativity: 2.2,
       meltingPoint: 1828,
-      boilingPoint: 3236,
+      boilingPoint: 3236
     },
     arrangements: {
-      atomicMass: '106.42(1)',
+      atomicMass: '"106.42(1)"',
       atomicWeight: '106.42',
       atomicWeightFull: '106.42(1) ',
       atomicRadius: 131,
@@ -2848,8 +3073,8 @@ const periodicTable = [
       group: 10,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: 163,
-    },
+      vanDelWaalsRadius: 163
+    }
   },
   {
     name: 'Silver',
@@ -2863,6 +3088,9 @@ const periodicTable = [
     group: 11,
     period: 5,
     block: 'd',
+    medium: 'ink on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '107.8682(2)',
     electronicConfiguration: '[Kr] 4d10 5s1',
     electronegativity: 1.93,
@@ -2884,9 +3112,10 @@ const periodicTable = [
       tablecolumncol: 11,
       visible: true,
       cpkHexColor: 'C0C0C0',
-      image: '047_silver.jpg',
+      image: '047_silver.jpg'
     },
     basics: { name: 'Silver', atomicNumber: 47, symbol: 'Ag' },
+    painting: { medium: 'ink on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2897,10 +3126,10 @@ const periodicTable = [
       electronAffinity: -126,
       electronegativity: 1.93,
       meltingPoint: 1235,
-      boilingPoint: 2435,
+      boilingPoint: 2435
     },
     arrangements: {
-      atomicMass: '107.8682(2)',
+      atomicMass: '"107.8682(2)"',
       atomicWeight: '107.87',
       atomicWeightFull: '107.8682(2) ',
       atomicRadius: 153,
@@ -2910,8 +3139,8 @@ const periodicTable = [
       group: 11,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: 172,
-    },
+      vanDelWaalsRadius: 172
+    }
   },
   {
     name: 'Cadmium',
@@ -2925,6 +3154,9 @@ const periodicTable = [
     group: 12,
     period: 5,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '112.411(8)',
     electronicConfiguration: '[Kr] 4d10 5s2',
     electronegativity: 1.69,
@@ -2946,9 +3178,10 @@ const periodicTable = [
       tablecolumncol: 12,
       visible: true,
       cpkHexColor: 'FFD98F',
-      image: '048_cadmium.jpg',
+      image: '048_cadmium.jpg'
     },
     basics: { name: 'Cadmium', atomicNumber: 48, symbol: 'Cd' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -2959,10 +3192,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 1.69,
       meltingPoint: 594,
-      boilingPoint: 1040,
+      boilingPoint: 1040
     },
     arrangements: {
-      atomicMass: '112.411(8)',
+      atomicMass: '"112.411(8)"',
       atomicWeight: '112.41',
       atomicWeightFull: '112.414(4) ',
       atomicRadius: 148,
@@ -2972,8 +3205,8 @@ const periodicTable = [
       group: 12,
       period: 5,
       block: 'd',
-      vanDelWaalsRadius: 158,
-    },
+      vanDelWaalsRadius: 158
+    }
   },
   {
     name: 'Indium',
@@ -2987,6 +3220,9 @@ const periodicTable = [
     group: 13,
     period: 5,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '114.818(3)',
     electronicConfiguration: '[Kr] 4d10 5s2 5p1',
     electronegativity: 1.78,
@@ -3001,18 +3237,19 @@ const periodicTable = [
     meltingPoint: 430,
     boilingPoint: 2345,
     density: 7.31,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 1863,
     webAttributes: {
       tablerowcol: 5,
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: 'A67573',
-      image: '049_indium.jpg',
+      image: '049_indium.jpg'
     },
     basics: { name: 'Indium', atomicNumber: 49, symbol: 'In' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -3021,10 +3258,10 @@ const periodicTable = [
       electronAffinity: -29,
       electronegativity: 1.78,
       meltingPoint: 430,
-      boilingPoint: 2345,
+      boilingPoint: 2345
     },
     arrangements: {
-      atomicMass: '114.818(3)',
+      atomicMass: '"114.818(3)"',
       atomicWeight: '114.82',
       atomicWeightFull: '114.818(1) ',
       atomicRadius: 144,
@@ -3034,8 +3271,8 @@ const periodicTable = [
       group: 13,
       period: 5,
       block: 'p',
-      vanDelWaalsRadius: 193,
-    },
+      vanDelWaalsRadius: 193
+    }
   },
   {
     name: 'Tin',
@@ -3049,6 +3286,9 @@ const periodicTable = [
     group: 14,
     period: 5,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '118.710(7)',
     electronicConfiguration: '[Kr] 4d10 5s2 5p2',
     electronegativity: 1.96,
@@ -3063,18 +3303,19 @@ const periodicTable = [
     meltingPoint: 505,
     boilingPoint: 2875,
     density: 7.31,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 'Ancient',
     webAttributes: {
       tablerowcol: 5,
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: 668080,
-      image: '050_tin.jpg',
+      image: '050_tin.jpg'
     },
     basics: { name: 'Tin', atomicNumber: 50, symbol: 'Sn' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -3083,10 +3324,10 @@ const periodicTable = [
       electronAffinity: -107,
       electronegativity: 1.96,
       meltingPoint: 505,
-      boilingPoint: 2875,
+      boilingPoint: 2875
     },
     arrangements: {
-      atomicMass: '118.710(7)',
+      atomicMass: '"118.710(7)"',
       atomicWeight: '118.71',
       atomicWeightFull: '118.710(7) ',
       atomicRadius: 141,
@@ -3096,8 +3337,8 @@ const periodicTable = [
       group: 14,
       period: 5,
       block: 'p',
-      vanDelWaalsRadius: 217,
-    },
+      vanDelWaalsRadius: 217
+    }
   },
   {
     name: 'Antimony',
@@ -3111,6 +3352,9 @@ const periodicTable = [
     group: 15,
     period: 5,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '121.760(1)',
     electronicConfiguration: '[Kr] 4d10 5s2 5p3',
     electronegativity: 2.05,
@@ -3132,9 +3376,10 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: '9E63B5',
-      image: '051_antimony.jpg',
+      image: '051_antimony.jpg'
     },
     basics: { name: 'Antimony', atomicNumber: 51, symbol: 'Sb' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'metallic',
@@ -3145,10 +3390,10 @@ const periodicTable = [
       electronAffinity: -103,
       electronegativity: 2.05,
       meltingPoint: 904,
-      boilingPoint: 1860,
+      boilingPoint: 1860
     },
     arrangements: {
-      atomicMass: '121.760(1)',
+      atomicMass: '"121.760(1)"',
       atomicWeight: '121.76',
       atomicWeightFull: '121.760(1) ',
       atomicRadius: 138,
@@ -3158,8 +3403,8 @@ const periodicTable = [
       group: 15,
       period: 5,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Tellurium',
@@ -3173,6 +3418,9 @@ const periodicTable = [
     group: 16,
     period: 5,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true,
     atomicMass: '127.60(3)',
     electronicConfiguration: '[Kr] 4d10 5s2 5p4',
     electronegativity: 2.1,
@@ -3194,9 +3442,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: 'D47A00',
-      image: '052_tellurium.jpg',
+      image: '052_tellurium.jpg'
     },
     basics: { name: 'Tellurium', atomicNumber: 52, symbol: 'Te' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'true' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'metallic',
@@ -3207,10 +3456,10 @@ const periodicTable = [
       electronAffinity: -190,
       electronegativity: 2.1,
       meltingPoint: 723,
-      boilingPoint: 1261,
+      boilingPoint: 1261
     },
     arrangements: {
-      atomicMass: '127.60(3)',
+      atomicMass: '"127.60(3)"',
       atomicWeight: '127.6',
       atomicWeightFull: '127.60(3) ',
       atomicRadius: 135,
@@ -3220,8 +3469,8 @@ const periodicTable = [
       group: 16,
       period: 5,
       block: 'p',
-      vanDelWaalsRadius: 206,
-    },
+      vanDelWaalsRadius: 206
+    }
   },
   {
     name: 'Iodine',
@@ -3235,6 +3484,9 @@ const periodicTable = [
     group: 17,
     period: 5,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '126.90447(3)',
     electronicConfiguration: '[Kr] 4d10 5s2 5p5',
     electronegativity: 2.66,
@@ -3249,18 +3501,19 @@ const periodicTable = [
     meltingPoint: 387,
     boilingPoint: 457,
     density: 4.94,
-    groupBlock: 'halogen',
+    groupBlock: 'nonmetal',
     yearDiscovered: 1811,
     webAttributes: {
       tablerowcol: 5,
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: 940094,
-      image: '053_iodine.jpg',
+      image: '053_iodine.jpg'
     },
     basics: { name: 'Iodine', atomicNumber: 53, symbol: 'I' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'halogen',
+      groupBlock: 'nonmetal',
       bondingType: 'covalent network',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -3269,10 +3522,10 @@ const periodicTable = [
       electronAffinity: -295,
       electronegativity: 2.66,
       meltingPoint: 387,
-      boilingPoint: 457,
+      boilingPoint: 457
     },
     arrangements: {
-      atomicMass: '126.90447(3)',
+      atomicMass: '"126.90447(3)"',
       atomicWeight: '126.9',
       atomicWeightFull: '126.90447(3) ',
       atomicRadius: 133,
@@ -3282,8 +3535,8 @@ const periodicTable = [
       group: 17,
       period: 5,
       block: 'p',
-      vanDelWaalsRadius: 198,
-    },
+      vanDelWaalsRadius: 198
+    }
   },
   {
     name: 'Xenon',
@@ -3297,6 +3550,9 @@ const periodicTable = [
     group: 18,
     period: 5,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '131.293(6)',
     electronicConfiguration: '[Kr] 4d10 5s2 5p6',
     electronegativity: '',
@@ -3318,9 +3574,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: '429EB0',
-      image: '054_xenon.jpg',
+      image: '054_xenon.jpg'
     },
     basics: { name: 'Xenon', atomicNumber: 54, symbol: 'Xe' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: 'atomic',
@@ -3331,10 +3588,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: '',
       meltingPoint: 161,
-      boilingPoint: 165,
+      boilingPoint: 165
     },
     arrangements: {
-      atomicMass: '131.293(6)',
+      atomicMass: '"131.293(6)"',
       atomicWeight: '131.29',
       atomicWeightFull: '131.293(6) ',
       atomicRadius: 130,
@@ -3344,8 +3601,8 @@ const periodicTable = [
       group: 18,
       period: 5,
       block: 'p',
-      vanDelWaalsRadius: 216,
-    },
+      vanDelWaalsRadius: 216
+    }
   },
   {
     name: 'Cesium',
@@ -3359,6 +3616,9 @@ const periodicTable = [
     group: 1,
     period: 6,
     block: 's',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '132.9054519(2)',
     electronicConfiguration: '[Xe] 6s1',
     electronegativity: 0.79,
@@ -3380,9 +3640,10 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: '57178F',
-      image: '055_cesium.jpg',
+      image: '055_cesium.jpg'
     },
     basics: { name: 'Cesium', atomicNumber: 55, symbol: 'Cs' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkali metal',
       bondingType: 'metallic',
@@ -3393,10 +3654,10 @@ const periodicTable = [
       electronAffinity: -46,
       electronegativity: 0.79,
       meltingPoint: 302,
-      boilingPoint: 944,
+      boilingPoint: 944
     },
     arrangements: {
-      atomicMass: '132.9054519(2)',
+      atomicMass: '"132.9054519(2)"',
       atomicWeight: '132.91',
       atomicWeightFull: '132.90545196(6) ',
       atomicRadius: 225,
@@ -3406,8 +3667,8 @@ const periodicTable = [
       group: 1,
       period: 6,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Barium',
@@ -3421,6 +3682,9 @@ const periodicTable = [
     group: 2,
     period: 6,
     block: 's',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '137.327(7)',
     electronicConfiguration: '[Xe] 6s2',
     electronegativity: 0.89,
@@ -3442,9 +3706,10 @@ const periodicTable = [
       tablecolumncol: 2,
       visible: true,
       cpkHexColor: '00C900',
-      image: '056_barium.jpg',
+      image: '056_barium.jpg'
     },
     basics: { name: 'Barium', atomicNumber: 56, symbol: 'Ba' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkaline earth metal',
       bondingType: 'metallic',
@@ -3455,10 +3720,10 @@ const periodicTable = [
       electronAffinity: -14,
       electronegativity: 0.89,
       meltingPoint: 1000,
-      boilingPoint: 2143,
+      boilingPoint: 2143
     },
     arrangements: {
-      atomicMass: '137.327(7)',
+      atomicMass: '"137.327(7)"',
       atomicWeight: '137.33',
       atomicWeightFull: '137.327(7) ',
       atomicRadius: 198,
@@ -3468,8 +3733,8 @@ const periodicTable = [
       group: 2,
       period: 6,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Lanthanum',
@@ -3483,6 +3748,9 @@ const periodicTable = [
     group: 3,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '138.90547(7)',
     electronicConfiguration: '[Xe] 5d1 6s2',
     electronegativity: 1.1,
@@ -3504,9 +3772,10 @@ const periodicTable = [
       tablecolumncol: 4,
       visible: true,
       cpkHexColor: '70D4FF',
-      image: '057_lanthanum.jpg',
+      image: '057_lanthanum.jpg'
     },
     basics: { name: 'Lanthanum', atomicNumber: 57, symbol: 'La' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3517,10 +3786,10 @@ const periodicTable = [
       electronAffinity: -48,
       electronegativity: 1.1,
       meltingPoint: 1193,
-      boilingPoint: 3737,
+      boilingPoint: 3737
     },
     arrangements: {
-      atomicMass: '138.90547(7)',
+      atomicMass: '"138.90547(7)"',
       atomicWeight: '138.91',
       atomicWeightFull: '138.90547(7) ',
       atomicRadius: 169,
@@ -3530,8 +3799,8 @@ const periodicTable = [
       group: 3,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Cerium',
@@ -3545,6 +3814,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '140.116(1)',
     electronicConfiguration: '[Xe] 4f1 5d1 6s2',
     electronegativity: 1.12,
@@ -3566,9 +3838,10 @@ const periodicTable = [
       tablecolumncol: 5,
       visible: true,
       cpkHexColor: 'FFFFC7',
-      image: '058_cerium.jpg',
+      image: '058_cerium.jpg'
     },
     basics: { name: 'Cerium', atomicNumber: 58, symbol: 'Ce' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3579,10 +3852,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.12,
       meltingPoint: 1071,
-      boilingPoint: 3633,
+      boilingPoint: 3633
     },
     arrangements: {
-      atomicMass: '140.116(1)',
+      atomicMass: '"140.116(1)"',
       atomicWeight: '140.12',
       atomicWeightFull: '140.116(1) ',
       atomicRadius: '',
@@ -3592,8 +3865,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Praseodymium',
@@ -3607,6 +3880,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil over acrylic on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '140.90765(2)',
     electronicConfiguration: '[Xe] 4f3 6s2',
     electronegativity: 1.13,
@@ -3628,9 +3904,14 @@ const periodicTable = [
       tablecolumncol: 6,
       visible: true,
       cpkHexColor: 'D9FFC7',
-      image: '059_praseodymium.jpg',
+      image: '059_praseodymium.jpg'
     },
     basics: { name: 'Praseodymium', atomicNumber: 59, symbol: 'Pr' },
+    painting: {
+      medium: 'oil over acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3641,10 +3922,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.13,
       meltingPoint: 1204,
-      boilingPoint: 3563,
+      boilingPoint: 3563
     },
     arrangements: {
-      atomicMass: '140.90765(2)',
+      atomicMass: '"140.90765(2)"',
       atomicWeight: '140.91',
       atomicWeightFull: '140.90766(1) ',
       atomicRadius: '',
@@ -3654,8 +3935,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Neodymium',
@@ -3669,6 +3950,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '144.242(3)',
     electronicConfiguration: '[Xe] 4f4 6s2',
     electronegativity: 1.14,
@@ -3690,9 +3974,10 @@ const periodicTable = [
       tablecolumncol: 7,
       visible: true,
       cpkHexColor: 'C7FFC7',
-      image: '060_neodymium.jpg',
+      image: '060_neodymium.jpg'
     },
     basics: { name: 'Neodymium', atomicNumber: 60, symbol: 'Nd' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3703,10 +3988,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.14,
       meltingPoint: 1294,
-      boilingPoint: 3373,
+      boilingPoint: 3373
     },
     arrangements: {
-      atomicMass: '144.242(3)',
+      atomicMass: '"144.242(3)"',
       atomicWeight: '144.24',
       atomicWeightFull: '144.242(3) ',
       atomicRadius: '',
@@ -3716,8 +4001,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Promethium',
@@ -3731,7 +4016,10 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
-    atomicMass: [145],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 145 ],
     electronicConfiguration: '[Xe] 4f5 6s2',
     electronegativity: 1.13,
     atomicRadius: '',
@@ -3752,9 +4040,10 @@ const periodicTable = [
       tablecolumncol: 8,
       visible: true,
       cpkHexColor: 'A3FFC7',
-      image: '061_promethium.jpg',
+      image: '061_promethium.jpg'
     },
     basics: { name: 'Promethium', atomicNumber: 61, symbol: 'Pm' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3765,10 +4054,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.13,
       meltingPoint: 1373,
-      boilingPoint: 3273,
+      boilingPoint: 3273
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[145]',
       atomicWeight: '[145]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -3778,8 +4067,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Samarium',
@@ -3793,6 +4082,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '150.36(2)',
     electronicConfiguration: '[Xe] 4f6 6s2',
     electronegativity: 1.17,
@@ -3814,9 +4106,10 @@ const periodicTable = [
       tablecolumncol: 9,
       visible: true,
       cpkHexColor: '8FFFC7',
-      image: '062_samarium.jpg',
+      image: '062_samarium.jpg'
     },
     basics: { name: 'Samarium', atomicNumber: 62, symbol: 'Sm' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3827,10 +4120,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.17,
       meltingPoint: 1345,
-      boilingPoint: 2076,
+      boilingPoint: 2076
     },
     arrangements: {
-      atomicMass: '150.36(2)',
+      atomicMass: '"150.36(2)"',
       atomicWeight: '150.36',
       atomicWeightFull: '150.36(2) ',
       atomicRadius: '',
@@ -3840,8 +4133,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Europium',
@@ -3855,6 +4148,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '151.964(1)',
     electronicConfiguration: '[Xe] 4f7 6s2',
     electronegativity: 1.2,
@@ -3876,9 +4172,10 @@ const periodicTable = [
       tablecolumncol: 10,
       visible: true,
       cpkHexColor: '61FFC7',
-      image: '063_europium.jpg',
+      image: '063_europium.jpg'
     },
     basics: { name: 'Europium', atomicNumber: 63, symbol: 'Eu' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3889,10 +4186,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.2,
       meltingPoint: 1095,
-      boilingPoint: 1800,
+      boilingPoint: 1800
     },
     arrangements: {
-      atomicMass: '151.964(1)',
+      atomicMass: '"151.964(1)"',
       atomicWeight: '151.96',
       atomicWeightFull: '151.964(1) ',
       atomicRadius: '',
@@ -3902,8 +4199,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Gadolinium',
@@ -3917,6 +4214,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '157.25(3)',
     electronicConfiguration: '[Xe] 4f7 5d1 6s2',
     electronegativity: 1.2,
@@ -3938,9 +4238,10 @@ const periodicTable = [
       tablecolumncol: 11,
       visible: true,
       cpkHexColor: '45FFC7',
-      image: '064_gadolinium.jpg',
+      image: '064_gadolinium.jpg'
     },
     basics: { name: 'Gadolinium', atomicNumber: 64, symbol: 'Gd' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -3951,10 +4252,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.2,
       meltingPoint: 1586,
-      boilingPoint: 3523,
+      boilingPoint: 3523
     },
     arrangements: {
-      atomicMass: '157.25(3)',
+      atomicMass: '"157.25(3)"',
       atomicWeight: '157.25',
       atomicWeightFull: '157.25(3) ',
       atomicRadius: '',
@@ -3964,8 +4265,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Terbium',
@@ -3979,6 +4280,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '158.92535(2)',
     electronicConfiguration: '[Xe] 4f9 6s2',
     electronegativity: 1.2,
@@ -4000,9 +4304,10 @@ const periodicTable = [
       tablecolumncol: 12,
       visible: true,
       cpkHexColor: '30FFC7',
-      image: '065_terbium.jpg',
+      image: '065_terbium.jpg'
     },
     basics: { name: 'Terbium', atomicNumber: 65, symbol: 'Tb' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4013,10 +4318,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.2,
       meltingPoint: 1629,
-      boilingPoint: 3503,
+      boilingPoint: 3503
     },
     arrangements: {
-      atomicMass: '158.92535(2)',
+      atomicMass: '"158.92535(2)"',
       atomicWeight: '158.93',
       atomicWeightFull: '158.925354(8) ',
       atomicRadius: '',
@@ -4026,8 +4331,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Dysprosium',
@@ -4041,6 +4346,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'ink on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '162.500(1)',
     electronicConfiguration: '[Xe] 4f10 6s2',
     electronegativity: 1.22,
@@ -4062,9 +4370,10 @@ const periodicTable = [
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: '1FFFC7',
-      image: '066_dysprosium.jpg',
+      image: '066_dysprosium.jpg'
     },
     basics: { name: 'Dysprosium', atomicNumber: 66, symbol: 'Dy' },
+    painting: { medium: 'ink on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4075,10 +4384,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.22,
       meltingPoint: 1685,
-      boilingPoint: 2840,
+      boilingPoint: 2840
     },
     arrangements: {
-      atomicMass: '162.500(1)',
+      atomicMass: '"162.500(1)"',
       atomicWeight: '162.5',
       atomicWeightFull: '162.500(1) ',
       atomicRadius: '',
@@ -4088,8 +4397,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Holmium',
@@ -4103,6 +4412,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '164.93032(2)',
     electronicConfiguration: '[Xe] 4f11 6s2',
     electronegativity: 1.23,
@@ -4124,9 +4436,10 @@ const periodicTable = [
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: '00FF9C',
-      image: '067_holmium.jpg',
+      image: '067_holmium.jpg'
     },
     basics: { name: 'Holmium', atomicNumber: 67, symbol: 'Ho' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4137,10 +4450,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.23,
       meltingPoint: 1747,
-      boilingPoint: 2973,
+      boilingPoint: 2973
     },
     arrangements: {
-      atomicMass: '164.93032(2)',
+      atomicMass: '"164.93032(2)"',
       atomicWeight: '164.93',
       atomicWeightFull: '164.930328(7) ',
       atomicRadius: '',
@@ -4150,8 +4463,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Erbium',
@@ -4165,6 +4478,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '167.259(3)',
     electronicConfiguration: '[Xe] 4f12 6s2',
     electronegativity: 1.24,
@@ -4186,9 +4502,10 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: 0,
-      image: '068_erbium.jpg',
+      image: '068_erbium.jpg'
     },
     basics: { name: 'Erbium', atomicNumber: 68, symbol: 'Er' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4199,10 +4516,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.24,
       meltingPoint: 1770,
-      boilingPoint: 3141,
+      boilingPoint: 3141
     },
     arrangements: {
-      atomicMass: '167.259(3)',
+      atomicMass: '"167.259(3)"',
       atomicWeight: '167.26',
       atomicWeightFull: '167.259(3) ',
       atomicRadius: '',
@@ -4212,8 +4529,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Thulium',
@@ -4227,6 +4544,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '168.93421(2)',
     electronicConfiguration: '[Xe] 4f13 6s2',
     electronegativity: 1.25,
@@ -4248,9 +4568,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: '00D452',
-      image: '069_thulium.jpg',
+      image: '069_thulium.jpg'
     },
     basics: { name: 'Thulium', atomicNumber: 69, symbol: 'Tm' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4261,10 +4582,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.25,
       meltingPoint: 1818,
-      boilingPoint: 2223,
+      boilingPoint: 2223
     },
     arrangements: {
-      atomicMass: '168.93421(2)',
+      atomicMass: '"168.93421(2)"',
       atomicWeight: '168.93',
       atomicWeightFull: '168.934218(6) ',
       atomicRadius: '',
@@ -4274,8 +4595,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Ytterbium',
@@ -4289,6 +4610,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '173.054(5)',
     electronicConfiguration: '[Xe] 4f14 6s2',
     electronegativity: 1.1,
@@ -4310,9 +4634,10 @@ const periodicTable = [
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: '00BF38',
-      image: '070_ytterbium.jpg',
+      image: '070_ytterbium.jpg'
     },
     basics: { name: 'Ytterbium', atomicNumber: 70, symbol: 'Yb' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4323,10 +4648,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.1,
       meltingPoint: 1092,
-      boilingPoint: 1469,
+      boilingPoint: 1469
     },
     arrangements: {
-      atomicMass: '173.054(5)',
+      atomicMass: '"173.054(5)"',
       atomicWeight: '173.05',
       atomicWeightFull: '173.045(10) ',
       atomicRadius: '',
@@ -4336,8 +4661,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Lutetium',
@@ -4351,6 +4676,9 @@ const periodicTable = [
     group: 0,
     period: 6,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '174.9668(1)',
     electronicConfiguration: '[Xe] 4f14 5d1 6s2',
     electronegativity: 1.27,
@@ -4372,9 +4700,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: '00AB24',
-      image: '071_lutetium.jpg',
+      image: '071_lutetium.jpg'
     },
     basics: { name: 'Lutetium', atomicNumber: 71, symbol: 'Lu' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'lanthanoid',
       bondingType: 'metallic',
@@ -4385,10 +4714,10 @@ const periodicTable = [
       electronAffinity: -50,
       electronegativity: 1.27,
       meltingPoint: 1936,
-      boilingPoint: 3675,
+      boilingPoint: 3675
     },
     arrangements: {
-      atomicMass: '174.9668(1)',
+      atomicMass: '"174.9668(1)"',
       atomicWeight: '174.97',
       atomicWeightFull: '174.9668(1) ',
       atomicRadius: 160,
@@ -4398,8 +4727,8 @@ const periodicTable = [
       group: 0,
       period: 6,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Hafnium',
@@ -4413,6 +4742,9 @@ const periodicTable = [
     group: 4,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '178.49(2)',
     electronicConfiguration: '[Xe] 4f14 5d2 6s2',
     electronegativity: 1.3,
@@ -4434,9 +4766,10 @@ const periodicTable = [
       tablecolumncol: 4,
       visible: true,
       cpkHexColor: '4DC2FF',
-      image: '072_hafnium.jpg',
+      image: '072_hafnium.jpg'
     },
     basics: { name: 'Hafnium', atomicNumber: 72, symbol: 'Hf' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4447,10 +4780,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 1.3,
       meltingPoint: 2506,
-      boilingPoint: 4876,
+      boilingPoint: 4876
     },
     arrangements: {
-      atomicMass: '178.49(2)',
+      atomicMass: '"178.49(2)"',
       atomicWeight: '178.49',
       atomicWeightFull: '178.49(2) ',
       atomicRadius: 150,
@@ -4460,8 +4793,8 @@ const periodicTable = [
       group: 4,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Tantalum',
@@ -4475,6 +4808,9 @@ const periodicTable = [
     group: 5,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '180.94788(2)',
     electronicConfiguration: '[Xe] 4f14 5d3 6s2',
     electronegativity: 1.5,
@@ -4496,9 +4832,10 @@ const periodicTable = [
       tablecolumncol: 5,
       visible: true,
       cpkHexColor: '4DA6FF',
-      image: '073_tantalum.jpg',
+      image: '073_tantalum.jpg'
     },
     basics: { name: 'Tantalum', atomicNumber: 73, symbol: 'Ta' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4509,10 +4846,10 @@ const periodicTable = [
       electronAffinity: -31,
       electronegativity: 1.5,
       meltingPoint: 3290,
-      boilingPoint: 5731,
+      boilingPoint: 5731
     },
     arrangements: {
-      atomicMass: '180.94788(2)',
+      atomicMass: '"180.94788(2)"',
       atomicWeight: '180.95',
       atomicWeightFull: '180.94788(2) ',
       atomicRadius: 138,
@@ -4522,8 +4859,8 @@ const periodicTable = [
       group: 5,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Tungsten',
@@ -4537,6 +4874,9 @@ const periodicTable = [
     group: 6,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '183.84(1)',
     electronicConfiguration: '[Xe] 4f14 5d4 6s2',
     electronegativity: 2.36,
@@ -4558,9 +4898,10 @@ const periodicTable = [
       tablecolumncol: 6,
       visible: true,
       cpkHexColor: '2194D6',
-      image: '074_tungsten.jpg',
+      image: '074_tungsten.jpg'
     },
     basics: { name: 'Tungsten', atomicNumber: 74, symbol: 'W' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4571,10 +4912,10 @@ const periodicTable = [
       electronAffinity: -79,
       electronegativity: 2.36,
       meltingPoint: 3695,
-      boilingPoint: 5828,
+      boilingPoint: 5828
     },
     arrangements: {
-      atomicMass: '183.84(1)',
+      atomicMass: '"183.84(1)"',
       atomicWeight: '183.84',
       atomicWeightFull: '183.84(1) ',
       atomicRadius: 146,
@@ -4584,8 +4925,8 @@ const periodicTable = [
       group: 6,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Rhenium',
@@ -4599,6 +4940,9 @@ const periodicTable = [
     group: 7,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '186.207(1)',
     electronicConfiguration: '[Xe] 4f14 5d5 6s2',
     electronegativity: 1.9,
@@ -4620,9 +4964,10 @@ const periodicTable = [
       tablecolumncol: 7,
       visible: true,
       cpkHexColor: '267DAB',
-      image: '075_rhenium.jpg',
+      image: '075_rhenium.jpg'
     },
     basics: { name: 'Rhenium', atomicNumber: 75, symbol: 'Re' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4633,10 +4978,10 @@ const periodicTable = [
       electronAffinity: -15,
       electronegativity: 1.9,
       meltingPoint: 3459,
-      boilingPoint: 5869,
+      boilingPoint: 5869
     },
     arrangements: {
-      atomicMass: '186.207(1)',
+      atomicMass: '"186.207(1)"',
       atomicWeight: '186.21',
       atomicWeightFull: '186.207(1) ',
       atomicRadius: 159,
@@ -4646,8 +4991,8 @@ const periodicTable = [
       group: 7,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Osmium',
@@ -4661,6 +5006,9 @@ const periodicTable = [
     group: 8,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '190.23(3)',
     electronicConfiguration: '[Xe] 4f14 5d6 6s2',
     electronegativity: 2.2,
@@ -4682,9 +5030,10 @@ const periodicTable = [
       tablecolumncol: 8,
       visible: true,
       cpkHexColor: 266696,
-      image: '076_osmium.jpg',
+      image: '076_osmium.jpg'
     },
     basics: { name: 'Osmium', atomicNumber: 76, symbol: 'Os' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4695,10 +5044,10 @@ const periodicTable = [
       electronAffinity: -106,
       electronegativity: 2.2,
       meltingPoint: 3306,
-      boilingPoint: 5285,
+      boilingPoint: 5285
     },
     arrangements: {
-      atomicMass: '190.23(3)',
+      atomicMass: '"190.23(3)"',
       atomicWeight: '190.23',
       atomicWeightFull: '190.23(3) ',
       atomicRadius: 128,
@@ -4708,8 +5057,8 @@ const periodicTable = [
       group: 8,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Iridium',
@@ -4723,6 +5072,9 @@ const periodicTable = [
     group: 9,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '192.217(3)',
     electronicConfiguration: '[Xe] 4f14 5d7 6s2',
     electronegativity: 2.2,
@@ -4744,9 +5096,10 @@ const periodicTable = [
       tablecolumncol: 9,
       visible: true,
       cpkHexColor: 175487,
-      image: '077_iridium.jpg',
+      image: '077_iridium.jpg'
     },
     basics: { name: 'Iridium', atomicNumber: 77, symbol: 'Ir' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4757,10 +5110,10 @@ const periodicTable = [
       electronAffinity: -151,
       electronegativity: 2.2,
       meltingPoint: 2739,
-      boilingPoint: 4701,
+      boilingPoint: 4701
     },
     arrangements: {
-      atomicMass: '192.217(3)',
+      atomicMass: '"192.217(3)"',
       atomicWeight: '192.22',
       atomicWeightFull: '192.217(2) ',
       atomicRadius: 137,
@@ -4770,8 +5123,8 @@ const periodicTable = [
       group: 9,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Platinum',
@@ -4785,6 +5138,9 @@ const periodicTable = [
     group: 10,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '195.084(9)',
     electronicConfiguration: '[Xe] 4f14 5d9 6s1',
     electronegativity: 2.28,
@@ -4806,9 +5162,10 @@ const periodicTable = [
       tablecolumncol: 10,
       visible: true,
       cpkHexColor: 'D0D0E0',
-      image: '078_platinum.jpg',
+      image: '078_platinum.jpg'
     },
     basics: { name: 'Platinum', atomicNumber: 78, symbol: 'Pt' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4819,10 +5176,10 @@ const periodicTable = [
       electronAffinity: -205,
       electronegativity: 2.28,
       meltingPoint: 2041,
-      boilingPoint: 4098,
+      boilingPoint: 4098
     },
     arrangements: {
-      atomicMass: '195.084(9)',
+      atomicMass: '"195.084(9)"',
       atomicWeight: '195.08',
       atomicWeightFull: '195.084(9) ',
       atomicRadius: 128,
@@ -4832,8 +5189,8 @@ const periodicTable = [
       group: 10,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: 175,
-    },
+      vanDelWaalsRadius: 175
+    }
   },
   {
     name: 'Gold',
@@ -4847,6 +5204,9 @@ const periodicTable = [
     group: 11,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '196.966569(4)',
     electronicConfiguration: '[Xe] 4f14 5d10 6s1',
     electronegativity: 2.54,
@@ -4868,9 +5228,10 @@ const periodicTable = [
       tablecolumncol: 11,
       visible: true,
       cpkHexColor: 'FFD123',
-      image: '079_gold.jpg',
+      image: '079_gold.jpg'
     },
     basics: { name: 'Gold', atomicNumber: 79, symbol: 'Au' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4881,10 +5242,10 @@ const periodicTable = [
       electronAffinity: -223,
       electronegativity: 2.54,
       meltingPoint: 1337,
-      boilingPoint: 3129,
+      boilingPoint: 3129
     },
     arrangements: {
-      atomicMass: '196.966569(4)',
+      atomicMass: '"196.966569(4)"',
       atomicWeight: '196.97',
       atomicWeightFull: '196.966570(4) ',
       atomicRadius: 144,
@@ -4894,8 +5255,8 @@ const periodicTable = [
       group: 11,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: 166,
-    },
+      vanDelWaalsRadius: 166
+    }
   },
   {
     name: 'Mercury',
@@ -4909,6 +5270,9 @@ const periodicTable = [
     group: 12,
     period: 6,
     block: 'd',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '200.59(2)',
     electronicConfiguration: '[Xe] 4f14 5d10 6s2',
     electronegativity: 2,
@@ -4930,9 +5294,10 @@ const periodicTable = [
       tablecolumncol: 12,
       visible: true,
       cpkHexColor: 'B8B8D0',
-      image: '080_mercury.jpg',
+      image: '080_mercury.jpg'
     },
     basics: { name: 'Mercury', atomicNumber: 80, symbol: 'Hg' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: 'metallic',
@@ -4943,10 +5308,10 @@ const periodicTable = [
       electronAffinity: 0,
       electronegativity: 2,
       meltingPoint: 234,
-      boilingPoint: 630,
+      boilingPoint: 630
     },
     arrangements: {
-      atomicMass: '200.59(2)',
+      atomicMass: '"200.59(2)"',
       atomicWeight: '200.59',
       atomicWeightFull: '200.592(3) ',
       atomicRadius: 149,
@@ -4956,8 +5321,8 @@ const periodicTable = [
       group: 12,
       period: 6,
       block: 'd',
-      vanDelWaalsRadius: 155,
-    },
+      vanDelWaalsRadius: 155
+    }
   },
   {
     name: 'Thallium',
@@ -4971,6 +5336,9 @@ const periodicTable = [
     group: 13,
     period: 6,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '204.3833(2)',
     electronicConfiguration: '[Xe] 4f14 5d10 6s2 6p1',
     electronegativity: 2.04,
@@ -4985,18 +5353,19 @@ const periodicTable = [
     meltingPoint: 577,
     boilingPoint: 1746,
     density: 11.85,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 1861,
     webAttributes: {
       tablerowcol: 6,
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: 'A6544D',
-      image: '081_thallium.jpg',
+      image: '081_thallium.jpg'
     },
     basics: { name: 'Thallium', atomicNumber: 81, symbol: 'Tl' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -5005,10 +5374,10 @@ const periodicTable = [
       electronAffinity: -19,
       electronegativity: 2.04,
       meltingPoint: 577,
-      boilingPoint: 1746,
+      boilingPoint: 1746
     },
     arrangements: {
-      atomicMass: '204.3833(2)',
+      atomicMass: '"204.3833(2)"',
       atomicWeight: '204.38',
       atomicWeightFull: '[204.382, 204.385] ',
       atomicRadius: 148,
@@ -5018,8 +5387,8 @@ const periodicTable = [
       group: 13,
       period: 6,
       block: 'p',
-      vanDelWaalsRadius: 196,
-    },
+      vanDelWaalsRadius: 196
+    }
   },
   {
     name: 'Lead',
@@ -5033,6 +5402,9 @@ const periodicTable = [
     group: 14,
     period: 6,
     block: 'p',
+    medium: 'ink on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '207.2(1)',
     electronicConfiguration: '[Xe] 4f14 5d10 6s2 6p2',
     electronegativity: 2.33,
@@ -5047,18 +5419,19 @@ const periodicTable = [
     meltingPoint: 601,
     boilingPoint: 2022,
     density: 11.34,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 'Ancient',
     webAttributes: {
       tablerowcol: 6,
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: 575961,
-      image: '082_lead.jpg',
+      image: '082_lead.jpg'
     },
     basics: { name: 'Lead', atomicNumber: 82, symbol: 'Pb' },
+    painting: { medium: 'ink on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -5067,10 +5440,10 @@ const periodicTable = [
       electronAffinity: -35,
       electronegativity: 2.33,
       meltingPoint: 601,
-      boilingPoint: 2022,
+      boilingPoint: 2022
     },
     arrangements: {
-      atomicMass: '207.2(1)',
+      atomicMass: '"207.2(1)"',
       atomicWeight: '207.2',
       atomicWeightFull: '207.2(1) ',
       atomicRadius: 147,
@@ -5080,8 +5453,8 @@ const periodicTable = [
       group: 14,
       period: 6,
       block: 'p',
-      vanDelWaalsRadius: 202,
-    },
+      vanDelWaalsRadius: 202
+    }
   },
   {
     name: 'Bismuth',
@@ -5095,6 +5468,9 @@ const periodicTable = [
     group: 15,
     period: 6,
     block: 'p',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '208.98040(1)',
     electronicConfiguration: '[Xe] 4f14 5d10 6s2 6p3',
     electronegativity: 2.02,
@@ -5109,18 +5485,19 @@ const periodicTable = [
     meltingPoint: 544,
     boilingPoint: 1837,
     density: 9.78,
-    groupBlock: 'metal',
+    groupBlock: 'post-transition metal',
     yearDiscovered: 'Ancient',
     webAttributes: {
       tablerowcol: 6,
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: '9E4FB5',
-      image: '083_bismuth.jpg',
+      image: '083_bismuth.jpg'
     },
     basics: { name: 'Bismuth', atomicNumber: 83, symbol: 'Bi' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'metal',
+      groupBlock: 'post-transition metal',
       bondingType: 'metallic',
       standardState: 'solid',
       stateOfMatter: 'primordial',
@@ -5129,10 +5506,10 @@ const periodicTable = [
       electronAffinity: -91,
       electronegativity: 2.02,
       meltingPoint: 544,
-      boilingPoint: 1837,
+      boilingPoint: 1837
     },
     arrangements: {
-      atomicMass: '208.98040(1)',
+      atomicMass: '"208.98040(1)"',
       atomicWeight: '208.98',
       atomicWeightFull: '208.98040(1) ',
       atomicRadius: 146,
@@ -5142,8 +5519,8 @@ const periodicTable = [
       group: 15,
       period: 6,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Polonium',
@@ -5157,7 +5534,10 @@ const periodicTable = [
     group: 16,
     period: 6,
     block: 'p',
-    atomicMass: [209],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 209 ],
     electronicConfiguration: '[Xe] 4f14 5d10 6s2 6p4',
     electronegativity: 2,
     atomicRadius: '',
@@ -5178,9 +5558,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: 'AB5C00',
-      image: '084_polonium.jpg',
+      image: '084_polonium.jpg'
     },
     basics: { name: 'Polonium', atomicNumber: 84, symbol: 'Po' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'metalloid',
       bondingType: 'metallic',
@@ -5191,10 +5572,10 @@ const periodicTable = [
       electronAffinity: -183,
       electronegativity: 2,
       meltingPoint: 527,
-      boilingPoint: 1235,
+      boilingPoint: 1235
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[209]',
       atomicWeight: '[209]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5204,8 +5585,8 @@ const periodicTable = [
       group: 16,
       period: 6,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Astatine',
@@ -5219,7 +5600,10 @@ const periodicTable = [
     group: 17,
     period: 6,
     block: 'p',
-    atomicMass: [210],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 210 ],
     electronicConfiguration: '[Xe] 4f14 5d10 6s2 6p5',
     electronegativity: 2.2,
     atomicRadius: '',
@@ -5233,18 +5617,19 @@ const periodicTable = [
     meltingPoint: 575,
     boilingPoint: '',
     density: '',
-    groupBlock: 'halogen',
+    groupBlock: 'nonmetal',
     yearDiscovered: 1940,
     webAttributes: {
       tablerowcol: 6,
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: '754F45',
-      image: '085_astatine.jpg',
+      image: '085_astatine.jpg'
     },
     basics: { name: 'Astatine', atomicNumber: 85, symbol: 'At' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'halogen',
+      groupBlock: 'nonmetal',
       bondingType: 'covalent network',
       standardState: 'solid',
       stateOfMatter: 'from decay',
@@ -5253,10 +5638,10 @@ const periodicTable = [
       electronAffinity: -270,
       electronegativity: 2.2,
       meltingPoint: 575,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[210]',
       atomicWeight: '[210]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5266,8 +5651,8 @@ const periodicTable = [
       group: 17,
       period: 6,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Radon',
@@ -5281,7 +5666,10 @@ const periodicTable = [
     group: 18,
     period: 6,
     block: 'p',
-    atomicMass: [222],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 222 ],
     electronicConfiguration: '[Xe] 4f14 5d10 6s2 6p6',
     electronegativity: '',
     atomicRadius: 145,
@@ -5302,9 +5690,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: 428296,
-      image: '086_radon.jpg',
+      image: '086_radon.jpg'
     },
     basics: { name: 'Radon', atomicNumber: 86, symbol: 'Rn' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: 'atomic',
@@ -5315,10 +5704,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: 202,
-      boilingPoint: 211,
+      boilingPoint: 211
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[222]',
       atomicWeight: '[222]',
       atomicWeightFull: '-',
       atomicRadius: 145,
@@ -5328,8 +5717,8 @@ const periodicTable = [
       group: 18,
       period: 6,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Francium',
@@ -5343,7 +5732,10 @@ const periodicTable = [
     group: 1,
     period: 7,
     block: 's',
-    atomicMass: [223],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 223 ],
     electronicConfiguration: '[Rn] 7s1',
     electronegativity: 0.7,
     atomicRadius: '',
@@ -5364,9 +5756,10 @@ const periodicTable = [
       tablecolumncol: 1,
       visible: true,
       cpkHexColor: 420066,
-      image: '087_francium.jpg',
+      image: '087_francium.jpg'
     },
     basics: { name: 'Francium', atomicNumber: 87, symbol: 'Fr' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkali metal',
       bondingType: 'metallic',
@@ -5377,10 +5770,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 0.7,
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[223]',
       atomicWeight: '[223]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5390,8 +5783,8 @@ const periodicTable = [
       group: 1,
       period: 7,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Radium',
@@ -5405,7 +5798,10 @@ const periodicTable = [
     group: 2,
     period: 7,
     block: 's',
-    atomicMass: [226],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 226 ],
     electronicConfiguration: '[Rn] 7s2',
     electronegativity: 0.9,
     atomicRadius: '',
@@ -5426,9 +5822,10 @@ const periodicTable = [
       tablecolumncol: 2,
       visible: true,
       cpkHexColor: '007D00',
-      image: '088_radium.jpg',
+      image: '088_radium.jpg'
     },
     basics: { name: 'Radium', atomicNumber: 88, symbol: 'Ra' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'alkaline earth metal',
       bondingType: 'metallic',
@@ -5439,10 +5836,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 0.9,
       meltingPoint: 973,
-      boilingPoint: 2010,
+      boilingPoint: 2010
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[226]',
       atomicWeight: '[226]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5452,8 +5849,8 @@ const periodicTable = [
       group: 2,
       period: 7,
       block: 's',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Actinium',
@@ -5467,7 +5864,10 @@ const periodicTable = [
     group: 3,
     period: 7,
     block: 'd',
-    atomicMass: [227],
+    medium: 'acrylic and rubber on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 227 ],
     electronicConfiguration: '[Rn] 6d1 7s2',
     electronegativity: 1.1,
     atomicRadius: '',
@@ -5488,9 +5888,14 @@ const periodicTable = [
       tablecolumncol: 4,
       visible: true,
       cpkHexColor: '70ABFA',
-      image: '089_actinium.jpg',
+      image: '089_actinium.jpg'
     },
     basics: { name: 'Actinium', atomicNumber: 89, symbol: 'Ac' },
+    painting: {
+      medium: 'acrylic and rubber on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5501,10 +5906,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.1,
       meltingPoint: 1323,
-      boilingPoint: 3473,
+      boilingPoint: 3473
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[227]',
       atomicWeight: '[227]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5514,8 +5919,8 @@ const periodicTable = [
       group: 3,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Thorium',
@@ -5529,6 +5934,9 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
+    medium: 'ink and watercolor on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '232.03806(2)',
     electronicConfiguration: '[Rn] 6d2 7s2',
     electronegativity: 1.3,
@@ -5550,9 +5958,14 @@ const periodicTable = [
       tablecolumncol: 5,
       visible: true,
       cpkHexColor: '00BAFF',
-      image: '090_thorium.jpg',
+      image: '090_thorium.jpg'
     },
     basics: { name: 'Thorium', atomicNumber: 90, symbol: 'Th' },
+    painting: {
+      medium: 'ink and watercolor on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5563,10 +5976,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 2023,
-      boilingPoint: 5093,
+      boilingPoint: 5093
     },
     arrangements: {
-      atomicMass: '232.03806(2)',
+      atomicMass: '"232.03806(2)"',
       atomicWeight: '232.04',
       atomicWeightFull: '232.0377(4) ',
       atomicRadius: '',
@@ -5576,8 +5989,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Protactinium',
@@ -5591,6 +6004,9 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
+    medium: 'ink and watercolor on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '231.03588(2)',
     electronicConfiguration: '[Rn] 5f2 6d1 7s2',
     electronegativity: 1.5,
@@ -5612,9 +6028,14 @@ const periodicTable = [
       tablecolumncol: 6,
       visible: true,
       cpkHexColor: '00A1FF',
-      image: '091_protactinium.jpg',
+      image: '091_protactinium.jpg'
     },
     basics: { name: 'Protactinium', atomicNumber: 91, symbol: 'Pa' },
+    painting: {
+      medium: 'ink and watercolor on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5625,10 +6046,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.5,
       meltingPoint: 1845,
-      boilingPoint: 4273,
+      boilingPoint: 4273
     },
     arrangements: {
-      atomicMass: '231.03588(2)',
+      atomicMass: '"231.03588(2)"',
       atomicWeight: '231.04',
       atomicWeightFull: '231.03588(1) ',
       atomicRadius: '',
@@ -5638,8 +6059,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Uranium',
@@ -5653,6 +6074,9 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
     atomicMass: '238.02891(3)',
     electronicConfiguration: '[Rn] 5f3 6d1 7s2',
     electronegativity: 1.38,
@@ -5674,9 +6098,10 @@ const periodicTable = [
       tablecolumncol: 7,
       visible: true,
       cpkHexColor: '008FFF',
-      image: '092_uranium.jpg',
+      image: '092_uranium.jpg'
     },
     basics: { name: 'Uranium', atomicNumber: 92, symbol: 'U' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5687,10 +6112,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.38,
       meltingPoint: 1408,
-      boilingPoint: 4200,
+      boilingPoint: 4200
     },
     arrangements: {
-      atomicMass: '238.02891(3)',
+      atomicMass: '"238.02891(3)"',
       atomicWeight: '238.03',
       atomicWeightFull: '238.02891(3) ',
       atomicRadius: '',
@@ -5700,8 +6125,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: 186,
-    },
+      vanDelWaalsRadius: 186
+    }
   },
   {
     name: 'Neptunium',
@@ -5715,7 +6140,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [237],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 237 ],
     electronicConfiguration: '[Rn] 5f4 6d1 7s2',
     electronegativity: 1.36,
     atomicRadius: '',
@@ -5736,9 +6164,10 @@ const periodicTable = [
       tablecolumncol: 8,
       visible: true,
       cpkHexColor: '0080FF',
-      image: '093_neptunium.jpg',
+      image: '093_neptunium.jpg'
     },
     basics: { name: 'Neptunium', atomicNumber: 93, symbol: 'Np' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5749,10 +6178,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.36,
       meltingPoint: 917,
-      boilingPoint: 4273,
+      boilingPoint: 4273
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[237]',
       atomicWeight: '[237]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5762,8 +6191,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Plutonium',
@@ -5777,7 +6206,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [244],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 244 ],
     electronicConfiguration: '[Rn] 5f6 7s2',
     electronegativity: 1.28,
     atomicRadius: '',
@@ -5798,9 +6230,10 @@ const periodicTable = [
       tablecolumncol: 9,
       visible: true,
       cpkHexColor: '006BFF',
-      image: '094_plutonium.jpg',
+      image: '094_plutonium.jpg'
     },
     basics: { name: 'Plutonium', atomicNumber: 94, symbol: 'Pu' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5811,10 +6244,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.28,
       meltingPoint: 913,
-      boilingPoint: 3503,
+      boilingPoint: 3503
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[244]',
       atomicWeight: '[244]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5824,8 +6257,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Americium',
@@ -5839,7 +6272,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [243],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 243 ],
     electronicConfiguration: '[Rn] 5f7 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -5860,9 +6296,10 @@ const periodicTable = [
       tablecolumncol: 10,
       visible: true,
       cpkHexColor: '545CF2',
-      image: '095_americium.jpg',
+      image: '095_americium.jpg'
     },
     basics: { name: 'Americium', atomicNumber: 95, symbol: 'Am' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5873,10 +6310,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1449,
-      boilingPoint: 2284,
+      boilingPoint: 2284
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[243]',
       atomicWeight: '[243]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5886,8 +6323,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Curium',
@@ -5901,7 +6338,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [247],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 247 ],
     electronicConfiguration: '[Rn] 5f7 6d1 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -5922,9 +6362,10 @@ const periodicTable = [
       tablecolumncol: 11,
       visible: true,
       cpkHexColor: '785CE3',
-      image: '096_curium.jpg',
+      image: '096_curium.jpg'
     },
     basics: { name: 'Curium', atomicNumber: 96, symbol: 'Cm' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5935,10 +6376,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1618,
-      boilingPoint: 3383,
+      boilingPoint: 3383
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[247]',
       atomicWeight: '[247]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -5948,8 +6389,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Berkelium',
@@ -5963,7 +6404,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [247],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 247 ],
     electronicConfiguration: '[Rn] 5f9 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -5984,9 +6428,10 @@ const periodicTable = [
       tablecolumncol: 12,
       visible: true,
       cpkHexColor: '8A4FE3',
-      image: '097_berkelium.jpg',
+      image: '097_berkelium.jpg'
     },
     basics: { name: 'Berkelium', atomicNumber: 97, symbol: 'Bk' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -5997,10 +6442,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1323,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[247]',
       atomicWeight: '[247]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6010,8 +6455,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Californium',
@@ -6025,7 +6470,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [251],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 251 ],
     electronicConfiguration: '[Rn] 5f10 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -6046,9 +6494,10 @@ const periodicTable = [
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: 'A136D4',
-      image: '098_californium.jpg',
+      image: '098_californium.jpg'
     },
     basics: { name: 'Californium', atomicNumber: 98, symbol: 'Cf' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: 'metallic',
@@ -6059,10 +6508,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1173,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[251]',
       atomicWeight: '[251]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6072,8 +6521,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Einsteinium',
@@ -6087,7 +6536,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [252],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 252 ],
     electronicConfiguration: '[Rn] 5f11 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -6108,9 +6560,10 @@ const periodicTable = [
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: 'B31FD4',
-      image: '099_einsteinium.jpg',
+      image: '099_einsteinium.jpg'
     },
     basics: { name: 'Einsteinium', atomicNumber: 99, symbol: 'Es' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: '',
@@ -6121,10 +6574,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1133,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[252]',
       atomicWeight: '[252]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6134,8 +6587,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Fermium',
@@ -6149,7 +6602,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [257],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 257 ],
     electronicConfiguration: '[Rn] 5f12 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -6170,9 +6626,10 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: 'B31FBA',
-      image: '100_fermium.jpg',
+      image: '100_fermium.jpg'
     },
     basics: { name: 'Fermium', atomicNumber: 100, symbol: 'Fm' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: '',
@@ -6183,10 +6640,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1800,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[257]',
       atomicWeight: '[257]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6196,8 +6653,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Mendelevium',
@@ -6211,7 +6668,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [258],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 258 ],
     electronicConfiguration: '[Rn] 5f13 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -6232,9 +6692,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: 'B30DA6',
-      image: '101_mendelevium.jpg',
+      image: '101_mendelevium.jpg'
     },
     basics: { name: 'Mendelevium', atomicNumber: 101, symbol: 'Md' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: '',
@@ -6245,10 +6706,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1100,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[258]',
       atomicWeight: '[258]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6258,8 +6719,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Nobelium',
@@ -6273,7 +6734,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [259],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 259 ],
     electronicConfiguration: '[Rn] 5f14 7s2',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -6294,9 +6758,10 @@ const periodicTable = [
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: 'BD0D87',
-      image: '102_nobelium.jpg',
+      image: '102_nobelium.jpg'
     },
     basics: { name: 'Nobelium', atomicNumber: 102, symbol: 'No' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'actinoid',
       bondingType: '',
@@ -6307,10 +6772,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1100,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[259]',
       atomicWeight: '[259]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6320,8 +6785,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Lawrencium',
@@ -6335,7 +6800,10 @@ const periodicTable = [
     group: 0,
     period: 7,
     block: 'f',
-    atomicMass: [262],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 262 ],
     electronicConfiguration: '[Rn] 5f14 7s2 7p1',
     electronegativity: 1.3,
     atomicRadius: '',
@@ -6349,18 +6817,19 @@ const periodicTable = [
     meltingPoint: 1900,
     boilingPoint: '',
     density: '',
-    groupBlock: 'transition metal',
+    groupBlock: 'actinoid',
     yearDiscovered: 1961,
     webAttributes: {
       tablerowcol: 9,
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: 'C70066',
-      image: '103_lawrencium.jpg',
+      image: '103_lawrencium.jpg'
     },
     basics: { name: 'Lawrencium', atomicNumber: 103, symbol: 'Lr' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
-      groupBlock: 'transition metal',
+      groupBlock: 'actinoid',
       bondingType: '',
       standardState: '',
       stateOfMatter: 'synthetic',
@@ -6369,10 +6838,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: 1.3,
       meltingPoint: 1900,
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[262]',
       atomicWeight: '[266]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6382,8 +6851,8 @@ const periodicTable = [
       group: 0,
       period: 7,
       block: 'f',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Rutherfordium',
@@ -6397,7 +6866,10 @@ const periodicTable = [
     group: 4,
     period: 7,
     block: 'd',
-    atomicMass: [267],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 267 ],
     electronicConfiguration: '[Rn] 5f14 6d2 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6418,9 +6890,10 @@ const periodicTable = [
       tablecolumncol: 4,
       visible: true,
       cpkHexColor: 'CC0059',
-      image: '104_rutherfordium.jpg',
+      image: '104_rutherfordium.jpg'
     },
     basics: { name: 'Rutherfordium', atomicNumber: 104, symbol: 'Rf' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6431,10 +6904,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[267]',
       atomicWeight: '[267]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6444,8 +6917,8 @@ const periodicTable = [
       group: 4,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Dubnium',
@@ -6459,7 +6932,10 @@ const periodicTable = [
     group: 5,
     period: 7,
     block: 'd',
-    atomicMass: [268],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 268 ],
     electronicConfiguration: '[Rn] 5f14 6d3 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6480,9 +6956,10 @@ const periodicTable = [
       tablecolumncol: 5,
       visible: true,
       cpkHexColor: 'D1004F',
-      image: '105_dubnium.jpg',
+      image: '105_dubnium.jpg'
     },
     basics: { name: 'Dubnium', atomicNumber: 105, symbol: 'Db' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6493,10 +6970,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[268]',
       atomicWeight: '[268]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6506,8 +6983,8 @@ const periodicTable = [
       group: 5,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Seaborgium',
@@ -6521,7 +6998,10 @@ const periodicTable = [
     group: 6,
     period: 7,
     block: 'd',
-    atomicMass: [271],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 271 ],
     electronicConfiguration: '[Rn] 5f14 6d4 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6542,9 +7022,10 @@ const periodicTable = [
       tablecolumncol: 6,
       visible: true,
       cpkHexColor: 'D90045',
-      image: '106_seaborgium.jpg',
+      image: '106_seaborgium.jpg'
     },
     basics: { name: 'Seaborgium', atomicNumber: 106, symbol: 'Sg' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6555,10 +7036,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[271]',
       atomicWeight: '[269]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6568,8 +7049,8 @@ const periodicTable = [
       group: 6,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Bohrium',
@@ -6583,7 +7064,10 @@ const periodicTable = [
     group: 7,
     period: 7,
     block: 'd',
-    atomicMass: [272],
+    medium: 'ink and acrylic on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 272 ],
     electronicConfiguration: '[Rn] 5f14 6d5 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6604,9 +7088,14 @@ const periodicTable = [
       tablecolumncol: 7,
       visible: true,
       cpkHexColor: 'E00038',
-      image: '107_bohrium.jpg',
+      image: '107_bohrium.jpg'
     },
     basics: { name: 'Bohrium', atomicNumber: 107, symbol: 'Bh' },
+    painting: {
+      medium: 'ink and acrylic on masonite',
+      diameter: '2.5 ft.',
+      done: 'false'
+    },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6617,10 +7106,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[272]',
       atomicWeight: '[270]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6630,8 +7119,8 @@ const periodicTable = [
       group: 7,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Hassium',
@@ -6645,7 +7134,10 @@ const periodicTable = [
     group: 8,
     period: 7,
     block: 'd',
-    atomicMass: [270],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 270 ],
     electronicConfiguration: '[Rn] 5f14 6d6 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6666,9 +7158,10 @@ const periodicTable = [
       tablecolumncol: 8,
       visible: true,
       cpkHexColor: 'E6002E',
-      image: '108_hassium.jpg',
+      image: '108_hassium.jpg'
     },
     basics: { name: 'Hassium', atomicNumber: 108, symbol: 'Hs' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6679,10 +7172,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[270]',
       atomicWeight: '[269]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6692,8 +7185,8 @@ const periodicTable = [
       group: 8,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Meitnerium',
@@ -6707,7 +7200,10 @@ const periodicTable = [
     group: 9,
     period: 7,
     block: 'd',
-    atomicMass: [276],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 276 ],
     electronicConfiguration: '[Rn] 5f14 6d7 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6728,9 +7224,10 @@ const periodicTable = [
       tablecolumncol: 9,
       visible: true,
       cpkHexColor: 'EB0026',
-      image: '109_meitnerium.jpg',
+      image: '109_meitnerium.jpg'
     },
     basics: { name: 'Meitnerium', atomicNumber: 109, symbol: 'Mt' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6741,10 +7238,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[276]',
       atomicWeight: '[278]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6754,8 +7251,8 @@ const periodicTable = [
       group: 9,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Darmstadtium',
@@ -6769,7 +7266,10 @@ const periodicTable = [
     group: 10,
     period: 7,
     block: 'd',
-    atomicMass: [281],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 281 ],
     electronicConfiguration: '[Rn] 5f14 6d9 7s1',
     electronegativity: '',
     atomicRadius: '',
@@ -6790,9 +7290,10 @@ const periodicTable = [
       tablecolumncol: 10,
       visible: true,
       cpkHexColor: '',
-      image: '110_darmstadtium.jpg',
+      image: '110_darmstadtium.jpg'
     },
     basics: { name: 'Darmstadtium', atomicNumber: 110, symbol: 'Ds' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6803,10 +7304,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[281]',
       atomicWeight: '[281]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6816,8 +7317,8 @@ const periodicTable = [
       group: 10,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Roentgenium',
@@ -6831,7 +7332,10 @@ const periodicTable = [
     group: 11,
     period: 7,
     block: 'd',
-    atomicMass: [280],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 280 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s1',
     electronegativity: '',
     atomicRadius: '',
@@ -6852,9 +7356,10 @@ const periodicTable = [
       tablecolumncol: 11,
       visible: true,
       cpkHexColor: '',
-      image: '111_roentgenium.jpg',
+      image: '111_roentgenium.jpg'
     },
     basics: { name: 'Roentgenium', atomicNumber: 111, symbol: 'Rg' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6865,10 +7370,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[280]',
       atomicWeight: '[282]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6878,8 +7383,8 @@ const periodicTable = [
       group: 11,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Copernicium',
@@ -6893,7 +7398,10 @@ const periodicTable = [
     group: 12,
     period: 7,
     block: 'd',
-    atomicMass: [285],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 285 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2',
     electronegativity: '',
     atomicRadius: '',
@@ -6914,9 +7422,10 @@ const periodicTable = [
       tablecolumncol: 12,
       visible: true,
       cpkHexColor: '',
-      image: '112_copernicium.jpg',
+      image: '112_copernicium.jpg'
     },
     basics: { name: 'Copernicium', atomicNumber: 112, symbol: 'Cn' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'transition metal',
       bondingType: '',
@@ -6927,10 +7436,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[285]',
       atomicWeight: '[285]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -6940,8 +7449,8 @@ const periodicTable = [
       group: 12,
       period: 7,
       block: 'd',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Nihonium',
@@ -6955,7 +7464,10 @@ const periodicTable = [
     group: 13,
     period: 7,
     block: 'p',
-    atomicMass: [284],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 284 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2 7p1',
     electronegativity: '',
     atomicRadius: '',
@@ -6976,9 +7488,10 @@ const periodicTable = [
       tablecolumncol: 13,
       visible: true,
       cpkHexColor: '',
-      image: '113_nihonium.jpg',
+      image: '113_nihonium.jpg'
     },
     basics: { name: 'Nihonium', atomicNumber: 113, symbol: 'Nh' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'post-transition metal',
       bondingType: '',
@@ -6989,10 +7502,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[284]',
       atomicWeight: '[286]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -7002,8 +7515,8 @@ const periodicTable = [
       group: 13,
       period: 7,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Flerovium',
@@ -7017,7 +7530,10 @@ const periodicTable = [
     group: 14,
     period: 7,
     block: 'p',
-    atomicMass: [289],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 289 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2 7p2',
     electronegativity: '',
     atomicRadius: '',
@@ -7038,9 +7554,10 @@ const periodicTable = [
       tablecolumncol: 14,
       visible: true,
       cpkHexColor: '',
-      image: '114_flerovium.jpg',
+      image: '114_flerovium.jpg'
     },
     basics: { name: 'Flerovium', atomicNumber: 114, symbol: 'Fl' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'post-transition metal',
       bondingType: '',
@@ -7051,10 +7568,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[289]',
       atomicWeight: '[289]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -7064,8 +7581,8 @@ const periodicTable = [
       group: 14,
       period: 7,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Moscovium',
@@ -7079,7 +7596,10 @@ const periodicTable = [
     group: 15,
     period: 7,
     block: 'p',
-    atomicMass: [288],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 288 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2 7p3',
     electronegativity: '',
     atomicRadius: '',
@@ -7100,9 +7620,10 @@ const periodicTable = [
       tablecolumncol: 15,
       visible: true,
       cpkHexColor: '',
-      image: '115_moscovium.jpg',
+      image: '115_moscovium.jpg'
     },
     basics: { name: 'Moscovium', atomicNumber: 115, symbol: 'Mc' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'post-transition metal',
       bondingType: '',
@@ -7113,10 +7634,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[288]',
       atomicWeight: '[290]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -7126,8 +7647,8 @@ const periodicTable = [
       group: 15,
       period: 7,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Livermorium',
@@ -7141,7 +7662,10 @@ const periodicTable = [
     group: 16,
     period: 7,
     block: 'p',
-    atomicMass: [293],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 293 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2 7p4',
     electronegativity: '',
     atomicRadius: '',
@@ -7162,9 +7686,10 @@ const periodicTable = [
       tablecolumncol: 16,
       visible: true,
       cpkHexColor: '',
-      image: '116_livermorium.jpg',
+      image: '116_livermorium.jpg'
     },
     basics: { name: 'Livermorium', atomicNumber: 116, symbol: 'Lv' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'post-transition metal',
       bondingType: '',
@@ -7175,10 +7700,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[293]',
       atomicWeight: '[293]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -7188,8 +7713,8 @@ const periodicTable = [
       group: 16,
       period: 7,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Tennessine',
@@ -7203,7 +7728,10 @@ const periodicTable = [
     group: 17,
     period: 7,
     block: 'p',
-    atomicMass: [294],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 294 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2 7p5',
     electronegativity: '',
     atomicRadius: '',
@@ -7224,9 +7752,10 @@ const periodicTable = [
       tablecolumncol: 17,
       visible: true,
       cpkHexColor: '',
-      image: '117_tennessine.jpg',
+      image: '117_tennessine.jpg'
     },
     basics: { name: 'Tennessine', atomicNumber: 117, symbol: 'Ts' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'post-transition metal',
       bondingType: '',
@@ -7237,10 +7766,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[294]',
       atomicWeight: '[294]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -7250,8 +7779,8 @@ const periodicTable = [
       group: 17,
       period: 7,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
+      vanDelWaalsRadius: ''
+    }
   },
   {
     name: 'Oganesson',
@@ -7265,7 +7794,10 @@ const periodicTable = [
     group: 18,
     period: 7,
     block: 'p',
-    atomicMass: [294],
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false,
+    atomicMass: [ 294 ],
     electronicConfiguration: '[Rn] 5f14 6d10 7s2 7p6',
     electronegativity: '',
     atomicRadius: '',
@@ -7286,9 +7818,10 @@ const periodicTable = [
       tablecolumncol: 18,
       visible: true,
       cpkHexColor: '',
-      image: '118_oganesson.jpg',
+      image: '118_oganesson.jpg'
     },
     basics: { name: 'Oganesson', atomicNumber: 118, symbol: 'Og' },
+    painting: { medium: 'oil on masonite', diameter: '2.5 ft.', done: 'false' },
     groupings: {
       groupBlock: 'noble gas',
       bondingType: '',
@@ -7299,10 +7832,10 @@ const periodicTable = [
       electronAffinity: '',
       electronegativity: '',
       meltingPoint: '',
-      boilingPoint: '',
+      boilingPoint: ''
     },
     arrangements: {
-      atomicMass: [Array],
+      atomicMass: '[294]',
       atomicWeight: '[294]',
       atomicWeightFull: '-',
       atomicRadius: '',
@@ -7312,7 +7845,7 @@ const periodicTable = [
       group: 18,
       period: 7,
       block: 'p',
-      vanDelWaalsRadius: '',
-    },
-  },
-];
+      vanDelWaalsRadius: ''
+    }
+  }
+]

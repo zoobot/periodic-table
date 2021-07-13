@@ -14,6 +14,9 @@ const periodicTableData = [
     tablerowcol: 1,
     tablecolumncol: 1,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Helium',
@@ -30,6 +33,9 @@ const periodicTableData = [
     tablerowcol: 1,
     tablecolumncol: 18,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2',
+    done: true
   },
   {
     name: 'Lithium',
@@ -46,6 +52,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 1,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '1.5',
+    done: true
   },
   {
     name: 'Beryllium',
@@ -62,6 +71,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 2,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '1.5',
+    done: true
   },
   {
     name: 'Boron',
@@ -78,6 +90,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 13,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2',
+    done: true
   },
   {
     name: 'Carbon',
@@ -94,6 +109,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 14,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Nitrogen',
@@ -110,6 +128,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 15,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Oxygen',
@@ -126,6 +147,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 16,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Fluorine',
@@ -142,6 +166,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 17,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Neon',
@@ -158,6 +185,9 @@ const periodicTableData = [
     tablerowcol: 2,
     tablecolumncol: 18,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Sodium',
@@ -174,6 +204,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 1,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Magnesium',
@@ -190,6 +223,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 2,
     visible: true,
+    medium: 'acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Aluminium',
@@ -206,6 +242,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 13,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Silicon',
@@ -222,6 +261,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 14,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Phosphorus',
@@ -238,6 +280,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Sulfur',
@@ -254,6 +299,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Chlorine',
@@ -270,6 +318,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Argon',
@@ -286,6 +337,9 @@ const periodicTableData = [
     tablerowcol: 3,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Potassium',
@@ -302,6 +356,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 1,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Calcium',
@@ -318,6 +375,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 2,
     visible: true,
+    medium: 'oil on canvas',
+    diameter: '2',
+    done: true
   },
   {
     name: 'Scandium',
@@ -334,6 +394,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 3,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Titanium',
@@ -350,6 +413,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 4,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '3',
+    done: false
   },
   {
     name: 'Vanadium',
@@ -366,6 +432,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 5,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Chromium',
@@ -382,6 +451,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 6,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Manganese',
@@ -398,6 +470,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 7,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Iron',
@@ -414,6 +489,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 8,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Cobalt',
@@ -430,6 +508,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 9,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Nickel',
@@ -446,6 +527,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 10,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Copper',
@@ -462,6 +546,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 11,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Zinc',
@@ -478,6 +565,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 12,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Gallium',
@@ -494,6 +584,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 13,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Germanium',
@@ -510,6 +603,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 14,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Arsenic',
@@ -526,6 +622,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Selenium',
@@ -542,6 +641,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Bromine',
@@ -558,6 +660,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Krypton',
@@ -574,6 +679,9 @@ const periodicTableData = [
     tablerowcol: 4,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Rubidium',
@@ -590,6 +698,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 1,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Strontium',
@@ -606,6 +717,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 2,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Yttrium',
@@ -622,6 +736,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 3,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Zirconium',
@@ -638,6 +755,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 4,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Niobium',
@@ -654,6 +774,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 5,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Molybdenum',
@@ -670,6 +793,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 6,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Technetium',
@@ -686,6 +812,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 7,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Ruthenium',
@@ -702,6 +831,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 8,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Rhodium',
@@ -718,6 +850,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 9,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Palladium',
@@ -734,6 +869,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 10,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Silver',
@@ -750,6 +888,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 11,
     visible: true,
+    medium: 'ink on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Cadmium',
@@ -766,6 +907,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 12,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Indium',
@@ -782,6 +926,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 13,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Tin',
@@ -798,6 +945,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 14,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Antimony',
@@ -814,6 +964,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Tellurium',
@@ -830,6 +983,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: true
   },
   {
     name: 'Iodine',
@@ -846,6 +1002,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Xenon',
@@ -862,6 +1021,9 @@ const periodicTableData = [
     tablerowcol: 5,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Caesium',
@@ -878,6 +1040,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 1,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Barium',
@@ -894,6 +1059,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 2,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Lanthanum',
@@ -910,6 +1078,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 4,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Cerium',
@@ -926,6 +1097,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 5,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Praseodymium',
@@ -942,6 +1116,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 6,
     visible: true,
+    medium: 'oil over acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Neodymium',
@@ -958,6 +1135,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 7,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Promethium',
@@ -974,6 +1154,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 8,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Samarium',
@@ -990,6 +1173,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 9,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Europium',
@@ -1006,6 +1192,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 10,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Gadolinium',
@@ -1022,6 +1211,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 11,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Terbium',
@@ -1038,6 +1230,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 12,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Dysprosium',
@@ -1054,6 +1249,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 13,
     visible: true,
+    medium: 'ink on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Holmium',
@@ -1070,6 +1268,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 14,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Erbium',
@@ -1086,6 +1287,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Thulium',
@@ -1102,6 +1306,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Ytterbium',
@@ -1118,6 +1325,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Lutenium',
@@ -1134,6 +1344,9 @@ const periodicTableData = [
     tablerowcol: 8,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Hafnium',
@@ -1150,6 +1363,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 4,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Tantalum',
@@ -1166,6 +1382,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 5,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Tungsten',
@@ -1182,6 +1401,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 6,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Rhenium',
@@ -1198,6 +1420,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 7,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Osmium',
@@ -1214,6 +1439,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 8,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Iridium',
@@ -1230,6 +1458,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 9,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Platinum',
@@ -1246,6 +1477,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 10,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Gold',
@@ -1262,6 +1496,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 11,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Mercury',
@@ -1278,6 +1515,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 12,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Thallium',
@@ -1294,6 +1534,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 13,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Lead',
@@ -1310,6 +1553,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 14,
     visible: true,
+    medium: 'ink on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Bismuth',
@@ -1326,6 +1572,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Polonium',
@@ -1342,6 +1591,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Astatine',
@@ -1358,6 +1610,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Radon',
@@ -1374,6 +1629,9 @@ const periodicTableData = [
     tablerowcol: 6,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Francium',
@@ -1390,6 +1648,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 1,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Radium',
@@ -1406,6 +1667,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 2,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Actinium',
@@ -1422,6 +1686,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 4,
     visible: true,
+    medium: 'acrylic and rubber on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Thorium',
@@ -1438,6 +1705,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 5,
     visible: true,
+    medium: 'ink and watercolor on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Protactinium',
@@ -1454,6 +1724,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 6,
     visible: true,
+    medium: 'ink and watercolor on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Uranium',
@@ -1470,6 +1743,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 7,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Neptunium',
@@ -1486,6 +1762,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 8,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Plutonium',
@@ -1502,6 +1781,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 9,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Americium',
@@ -1518,6 +1800,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 10,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Curium',
@@ -1534,6 +1819,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 11,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Berkelium',
@@ -1550,6 +1838,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 12,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Californium',
@@ -1566,6 +1857,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 13,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Einsteinium',
@@ -1582,6 +1876,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 14,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Fermium',
@@ -1598,6 +1895,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Mendelevium',
@@ -1614,6 +1914,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Nobelium',
@@ -1630,6 +1933,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Lawrencium',
@@ -1646,6 +1952,9 @@ const periodicTableData = [
     tablerowcol: 9,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Rutherfordium',
@@ -1662,6 +1971,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 4,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Dubnium',
@@ -1678,6 +1990,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 5,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Seaborgium',
@@ -1694,6 +2009,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 6,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Bohrium',
@@ -1710,6 +2028,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 7,
     visible: true,
+    medium: 'ink and acrylic on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Hassium',
@@ -1726,6 +2047,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 8,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Meitnerium',
@@ -1742,6 +2066,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 9,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Darmstadtium',
@@ -1758,6 +2085,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 10,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Roentgenium',
@@ -1774,6 +2104,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 11,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Copernicum',
@@ -1790,6 +2123,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 12,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Nihonium',
@@ -1806,6 +2142,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 13,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Flerovium',
@@ -1822,6 +2161,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 14,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Moscovium',
@@ -1838,6 +2180,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 15,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Livermorium',
@@ -1854,6 +2199,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 16,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Tennessine',
@@ -1870,6 +2218,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 17,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
   {
     name: 'Oganesson',
@@ -1886,6 +2237,9 @@ const periodicTableData = [
     tablerowcol: 7,
     tablecolumncol: 18,
     visible: true,
+    medium: 'oil on masonite',
+    diameter: '2.5',
+    done: false
   },
 ];
 
