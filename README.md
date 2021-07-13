@@ -1,5 +1,13 @@
 # Periodic Table of the Elements
-This is a vanilla javascript/html/css Table of the Elements to display my electron shell arrangement paintings and the data of atoms.
+The Table is the best and worst<br>
+The Table is the universe<br>
+Eat from the Table.<br>
+Run from the Table,<br>
+You'll end up right back at the Table.<br><br>
+
+# [periodictable.ai](https://periodictable.ai)
+
+I built this vanilla javascript/html/css Table of the Elements to keep track of the progress of my electron shell arrangement paintings.
 
 ## Thanks for the data from here!!
 [@andrejewski](https://github.com/andrejewski)
