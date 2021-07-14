@@ -10,18 +10,36 @@ Run from the Table.<br>
 You'll end up<br>
 Right back at the Table. </p>`;
 
-// const width = window.innerWidth
-//   || document.documentElement.clientWidth
-//   || document.body.clientWidth;
-// const height = window.innerHeight
-//   || document.documentElement.clientHeight
-//   || document.body.clientHeight;
+const width = window.innerWidth
+  || document.documentElement.clientWidth
+  || document.body.clientWidth;
+const height = window.innerHeight
+  || document.documentElement.clientHeight
+  || document.body.clientHeight;
 
 function createWikiUrl(element) {
   return `https://en.wikipedia.org/wiki/${element}`;
 }
 
+function createA(elementType, className, idName, parent, elementName) {
+  const domElement = document.createElement(elementType);
+  if (className) domElement.className = className;
+  if (idName) domElement.id = idName;
+  if (elementType === 'a') domElement.href = createWikiUrl(elementName);
+  if (elementType === 'a') domElement.onclick = () => console.log('aref click', domElement);
+  if (parent) parent.append(domElement);
+  return domElement;
+}
 
+function closeElementExpanded(event) {
+  const elementExpanded = document.getElementById('periodic-element__expanded');
+  console.log(event,'closeElementExpanded', elementExpanded);
+  elementExpanded.textContent = '';
+  elementExpanded.style.display = 'grid';
+  const periodicTable = document.getElementById('periodic-table');
+  periodicTable.style.position = 'relative';
+  periodicTable.style.top = '0px';
+}
 
 function createDOMElement(elementType, className, idName, parent,
   elementItem, eventListener, elementName, image) {
@@ -54,53 +72,16 @@ function createInfoDivs(elementObj, elementParent, atomicNumber, objName) {
   });
 }
 
-function createElementExpanded(periodicElement, elementExpanded) {
-  const { atomicNumber, name } = periodicElement;
-  elementExpanded.textContent = '';
-  elementExpanded.style.display = 'grid';
-  const periodicTable = document.getElementById('periodic-table');
-  periodicTable.style.position = 'relative';
-  periodicTable.style.top = '255px';
-  
-  const image = createDOMElement('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
-    elementExpanded, null, null, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`);
-  image.href = createWikiUrl(name);
-  console.log(image)
-
-  const elementDescription = createDOMElement('div', 'periodic-element__expanded-description',
-    'periodic-element__expanded-description', elementExpanded);
-
-  createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
-  createInfoDivs(periodicElement.groupings, elementDescription, atomicNumber, '-groupings');
-
-  createInfoDivs(periodicElement.arrangements, elementDescription, atomicNumber, '-arrangements');
-  createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
-}
-
-function touchHandler() {
-
-    var touchHndl = function() {
-        //call the clickHandler actually
-        clickHandler();
-        //remove the touchend haldler after perform
-        this.removeEventListener(touchHndl)
-    }
-    //attach a handler for touch end when you are in touchstart event
-    this.addEventListener(touchHndl);
-
-}
-
-function addClickHandler(elementGridCell, elementBody, periodicElement) {
+function addImageClickHandler(imageElement, periodicElement) {
   const clickHandler = () => {
     const elementExpanded = document.getElementsByClassName('periodic-element__expanded')[0];
     createElementExpanded(periodicElement, elementExpanded);
   }
 
   elementGridCell.addEventListener('click', clickHandler, false);
-
   if ('ontouchstart' in window) {
-    menu.addEventListener("touchstart", function() {
-        var touchHndl = function() {
+    elementGridCell.addEventListener("touchstart", function() {
+        const touchHndl = function() {
             //call the clickHandler actually
             clickHandler();
             //remove the touchend handler after perform
@@ -109,7 +90,64 @@ function addClickHandler(elementGridCell, elementBody, periodicElement) {
         //attach a handler for touch end when you are in touchstart event
         this.addEventListener(touchHndl);
     });
+  }
 }
+
+function createElementExpanded(periodicElement, elementExpanded) {
+  const { atomicNumber, name } = periodicElement;
+  elementExpanded.textContent = '';
+  elementExpanded.style.display = 'grid';
+  const periodicTable = document.getElementById('periodic-table');
+  // periodicTable.className += ' periodic-table__relative';
+  periodicTable.style.position = 'relative';
+  periodicTable.style.top = '325px';
+  
+  const aElement = createA('a', 'periodic-element__expanded-url', 'periodic-element__expanded-url', elementExpanded, name);
+
+  const image = createDOMElement('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
+  aElement, null, null, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`);
+   
+  const elementDescription = createDOMElement('div', 'periodic-element__expanded-description',
+    'periodic-element__expanded-description', elementExpanded);
+
+  if (width > 600) {
+    createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
+    createInfoDivs(periodicElement.groupings, elementDescription, atomicNumber, '-groupings');
+    createInfoDivs(periodicElement.arrangements, elementDescription, atomicNumber, '-arrangements');
+    createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
+    createDOMElement('div', 'periodic-element__expanded-blank', 'periodic-element__expanded-blank', elementDescription);
+    createDOMElement('div', 'periodic-element__expanded-close', 'periodic-element__expanded-close', elementDescription,
+      '<h2>X</h2>', closeElementExpanded, name);
+  } else {
+    createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
+    createInfoDivs(periodicElement.short, elementDescription, atomicNumber, '-short');
+    createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
+  }
+
+
+}
+
+function touchHandler() {
+    const touchHndl = function() {
+        //call the clickHandler actually
+        clickHandler();
+        //remove the touchend haldler after perform
+        this.removeEventListener(touchHndl)
+    }
+    //attach a handler for touch end when you are in touchstart event
+    this.addEventListener(touchHndl);
+    return;
+}
+
+function addTableClickHandler(elementGridCell, elementBody, periodicElement) {
+  const clickHandler = () => {
+    const elementExpanded = document.getElementsByClassName('periodic-element__expanded')[0];
+    createElementExpanded(periodicElement, elementExpanded);
+  }
+  elementGridCell.addEventListener('click', clickHandler, false);
+  if ('ontouchstart' in window) elementGridCell.addEventListener("touchstart", touchHandler);
+  return;
+  return;
 }
 
 function backgroundColorFilter(groupBlock) {
@@ -135,7 +173,7 @@ function createElements(elementContainer, elementBody) {
     const elementGridCell = document.getElementById(`c${element.webAttributes.tablecolumncol}-r${element.webAttributes.tablerowcol}`);
     elementGridCell.style.backgroundColor = backgroundColorFilter(element.groupBlock);
     elementGridCell.className = 'periodic-element';
-    addClickHandler(elementGridCell, elementBody, element);
+    addTableClickHandler(elementGridCell, elementBody, element);
 
     createDOMElement('div', 'atomicnumber', `atomicnumber__${element.atomicNumber}`, elementGridCell, element.atomicNumber);
     createDOMElement('div', 'symbol', `symbol__${element.symbol}`, elementGridCell, element.symbol);

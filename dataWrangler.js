@@ -1,9 +1,10 @@
 // const { inspect } = require('util');
 const data1 = require('./data1');
 const data2 = require('./data2');
+const data3 = require('./data3');
 
 function joinData() {
-  const data3 = data1.map((element, index) => {
+  const data = data1.map((element, index) => {
     const elementNew = { ...element, ...data2[index] };
     elementNew.webAttributes = {
       tablerowcol: elementNew.tablerowcol,
@@ -35,33 +36,45 @@ function joinData() {
       bondingType: elementNew.bondingType,
       standardState: elementNew.standardState,
       stateOfMatter: elementNew.stateOfMatter,
-      oxidationStates: elementNew.oxidationStates,
-      ionizationEnergy: elementNew.ionizationEnergy,
-      electronAffinity: elementNew.electronAffinity,
-      electronegativity: elementNew.electronegativity,
+      atomicMass: elementNew.atomicMass.toString(),
+      atomicWeight: elementNew.atomicWeight,
+      atomicWeightFull: elementNew.atomicWeightFull,
+      density: elementNew.density,
+      atomicRadius: elementNew.atomicRadius,
+      vanDelWaalsRadius: elementNew.vanDelWaalsRadius,
+      ionRadius: elementNew.ionRadius,
       meltingPoint: elementNew.meltingPoint,
       boilingPoint: elementNew.boilingPoint,
     };
 
     elementNew.arrangements = {
-      atomicMass: JSON.stringify(elementNew.atomicMass),
-      atomicWeight: elementNew.atomicWeight,
-      atomicWeightFull: elementNew.atomicWeightFull,
-      atomicRadius: elementNew.atomicRadius,
-      ionRadius: elementNew.ionRadius,
-      density: elementNew.density,
-      electronicConfiguration: elementNew.electronicConfiguration,
+      electronicShellArrangement: data3[index][5],
+      electronicConfigurationShort: elementNew.electronicConfiguration,
+      electronicConfigurationFull: data3[index][4],
+      oxidationStates: elementNew.oxidationStates,
+      ionizationEnergy: elementNew.ionizationEnergy,
+      electronAffinity: elementNew.electronAffinity,
+      electronegativity: elementNew.electronegativity,
       group: elementNew.group,
       period: elementNew.period,
       block: elementNew.block,
-      vanDelWaalsRadius: elementNew.vanDelWaalsRadius,
+    };
+
+    elementNew.short = {
+      Mass: elementNew.atomicMass.toString(),
+      Melting: elementNew.meltingPoint,
+      Boiling: elementNew.boilingPoint,
+      Shell: data3[index][5],
+      Configuration: elementNew.electronicConfiguration,
+      Series: elementNew.groupBlock,
+      State: elementNew.standardState,
     };
 
     return elementNew;
   });
   console.log('const periodicTable =');
-  console.dir(data3, { maxArrayLength: null });
-  return data3;
+  console.dir(data, { maxArrayLength: null });
+  return data;
 }
 
 joinData();
