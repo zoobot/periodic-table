@@ -98,9 +98,10 @@ function createElementExpanded(periodicElement, elementExpanded) {
   elementExpanded.textContent = '';
   elementExpanded.style.display = 'grid';
   const periodicTable = document.getElementById('periodic-table');
-  // periodicTable.className += ' periodic-table__relative';
   periodicTable.style.position = 'relative';
   periodicTable.style.top = '325px';
+  const header = document.getElementById('header');
+  header.style.display = 'none';
   
   const aElement = createA('a', 'periodic-element__expanded-url', 'periodic-element__expanded-url', elementExpanded, name);
 
@@ -114,10 +115,12 @@ function createElementExpanded(periodicElement, elementExpanded) {
     createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
     createInfoDivs(periodicElement.groupings, elementDescription, atomicNumber, '-groupings');
     createInfoDivs(periodicElement.arrangements, elementDescription, atomicNumber, '-arrangements');
-    createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
-    createDOMElement('div', 'periodic-element__expanded-blank', 'periodic-element__expanded-blank', elementDescription);
-    createDOMElement('div', 'periodic-element__expanded-close', 'periodic-element__expanded-close', elementDescription,
-      '<h2>X</h2>', closeElementExpanded, name);
+    createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, 
+      '-painting');
+    createDOMElement('div', 'periodic-element__expanded-blank', 'periodic-element__expanded-blank', 
+      elementDescription);
+    createDOMElement('div', 'periodic-element__expanded-close', 'periodic-element__expanded-close', 
+      elementDescription,'<h2>X</h2>', closeElementExpanded, name);
   } else {
     createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
     createInfoDivs(periodicElement.short, elementDescription, atomicNumber, '-short');
@@ -222,11 +225,18 @@ function makeRows(elementContainer, cols, rows) {
 
 function createGrid() {
   const elementBody = document.getElementsByTagName('body')[0];
+
   const elementContainer = createDOMElement('container', 'container', 'container', elementBody);
+
   createDOMElement('div', 'periodic-element__expanded', 'periodic-element__expanded', elementContainer, periodicTablePoem);
 
   const elementPeriodicTable = createDOMElement('ul', 'periodic-table', 'periodic-table', elementContainer);
+
   makeRows(elementPeriodicTable, 18, 9);
+  
+  const headerTxt = `<h2>ROSE'S PERIODIC TABLE PAINTINGS</h2>`;
+  const elementHeader = createDOMElement('header','header','header',elementPeriodicTable,headerTxt);
+  
   const elementElements = createElements(elementPeriodicTable, elementBody);
   scrollList();
   return elementElements;
