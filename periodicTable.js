@@ -41,14 +41,25 @@ function closeElementExpanded(event) {
   periodicTable.style.top = '0px';
 }
 
+function createDOMImage(elementType, className, idName, parent, elementName, image, width) {
+  console.log(elementType, className, idName, parent,elementName, image)
+  const domElement = document.createElement(elementType);
+  domElement.className = className;
+  domElement.id = idName;
+  domElement.src = image;
+  domElement.alt = elementName;
+  domElement.width = width;
+  parent.appendChild(domElement);
+  return domElement;
+}
+
 function createDOMElement(elementType, className, idName, parent,
-  elementItem, eventListener, elementName, image) {
+  elementItem, eventListener, elementName) {
   const domElement = (elementType) ? document.createElement(elementType) : elementName;
   if (className) domElement.className = className;
   if (idName) domElement.id = idName;
-  if (eventListener) domElement.addEventListener('click', eventListener.bind(this));
+  if (eventListener) domElement.addEventListener('click', eventListener.bind(this), {passive: true});
   if (elementItem) domElement.innerHTML += elementItem;
-  if (image) domElement.src = image;
   if (elementType === 'ul') domElement.type = 'none';
   if (parent) parent.appendChild(domElement);
   return domElement;
@@ -89,7 +100,7 @@ function addImageClickHandler(imageElement, periodicElement) {
         }
         //attach a handler for touch end when you are in touchstart event
         this.addEventListener(touchHndl);
-    });
+    },  {passive: true});
   }
 }
 
@@ -104,9 +115,8 @@ function createElementExpanded(periodicElement, elementExpanded) {
   header.style.display = 'none';
   
   const aElement = createA('a', 'periodic-element__expanded-url', 'periodic-element__expanded-url', elementExpanded, name);
-
-  const image = createDOMElement('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
-  aElement, null, null, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`);
+  const image = createDOMImage('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
+  aElement, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`, 250);
    
   const elementDescription = createDOMElement('div', 'periodic-element__expanded-description',
     'periodic-element__expanded-description', elementExpanded);
@@ -138,7 +148,7 @@ function touchHandler() {
         this.removeEventListener(touchHndl)
     }
     //attach a handler for touch end when you are in touchstart event
-    this.addEventListener(touchHndl);
+    this.addEventListener('touchstart', touchHndl, {passive: true});
     return;
 }
 
@@ -148,7 +158,7 @@ function addTableClickHandler(elementGridCell, elementBody, periodicElement) {
     createElementExpanded(periodicElement, elementExpanded);
   }
   elementGridCell.addEventListener('click', clickHandler, false);
-  if ('ontouchstart' in window) elementGridCell.addEventListener("touchstart", touchHandler);
+  if ('ontouchstart' in window) elementGridCell.addEventListener("touchstart", touchHandler, {passive: true});
   return;
   return;
 }
@@ -180,8 +190,9 @@ function createElements(elementContainer, elementBody) {
 
     createDOMElement('div', 'atomicnumber', `atomicnumber__${element.atomicNumber}`, elementGridCell, element.atomicNumber);
     createDOMElement('div', 'symbol', `symbol__${element.symbol}`, elementGridCell, element.symbol);
-    createDOMElement('img', 'image', `image__${element.symbol}`, elementGridCell,
-      null, null, element.name, `assets/images/${element.webAttributes.image}`);
+    // (elementType, className, idName, parent, elementName, image, width)
+    createDOMImage('img', 'image', `image__${element.symbol}`, elementGridCell,
+      `${element.atomicnumber}_${element.name}`, `assets/images/thumbs/${element.webAttributes.image}`, 140);
 
     return elementGridCell;
   });
