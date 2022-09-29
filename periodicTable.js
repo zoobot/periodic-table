@@ -114,30 +114,30 @@ function createElementExpanded(periodicElement, elementExpanded) {
   const header = document.getElementById('header');
   header.style.display = 'none';
   
+  const elementName = createDOMElement('div', 'periodic-element__expanded-name',
+  'periodic-element__expanded-name', elementExpanded);
+  createInfoDivs(periodicElement.basics, elementName, atomicNumber, '-basics');
+  createInfoDivs(periodicElement.painting, elementName, atomicNumber, '-painting');
+
+
   const aElement = createA('a', 'periodic-element__expanded-url', 'periodic-element__expanded-url', elementExpanded, name);
   const image = createDOMImage('img', 'periodic-element__expanded-image', 'periodic-element__expanded-image',
-  aElement, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`, 250);
-   
+    aElement, atomicNumber, `assets/images/${periodicElement.webAttributes.image}`, 250);
+
+
   const elementDescription = createDOMElement('div', 'periodic-element__expanded-description',
     'periodic-element__expanded-description', elementExpanded);
 
   if (width > 600) {
-    createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
     createInfoDivs(periodicElement.groupings, elementDescription, atomicNumber, '-groupings');
     createInfoDivs(periodicElement.arrangements, elementDescription, atomicNumber, '-arrangements');
-    createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, 
-      '-painting');
-    createDOMElement('div', 'periodic-element__expanded-blank', 'periodic-element__expanded-blank', 
-      elementDescription);
-    createDOMElement('div', 'periodic-element__expanded-close', 'periodic-element__expanded-close', 
-      elementDescription,'<h2>X</h2>', closeElementExpanded, name);
+    createDOMElement('h2', 'periodic-element__expanded-close', 'periodic-element__expanded-close', 
+      elementDescription,'X', closeElementExpanded, name);
   } else {
     createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
     createInfoDivs(periodicElement.short, elementDescription, atomicNumber, '-short');
     createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
   }
-
-
 }
 
 function touchHandler() {
