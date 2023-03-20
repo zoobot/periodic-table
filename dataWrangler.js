@@ -72,8 +72,6 @@ function joinData() {
 
     return elementNew;
   });
-  console.log('const periodicTable =');
-  console.dir(data, { maxArrayLength: null });
   return data;
 }
 
