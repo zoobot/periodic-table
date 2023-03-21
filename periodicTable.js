@@ -26,7 +26,7 @@ function createA(elementType, className, idName, parent, elementName) {
   if (className) domElement.className = className;
   if (idName) domElement.id = idName;
   if (elementType === 'a') domElement.href = createWikiUrl(elementName);
-  // if (elementType === 'a') domElement.onclick = () => console.log('aref click', domElement);
+  if (elementType === 'a') domElement.onclick = () => console.log('aref click', domElement);
   if (parent) parent.append(domElement);
   return domElement;
 }
