@@ -26,7 +26,7 @@ function createA(elementType, className, idName, parent, elementName) {
   if (className) domElement.className = className;
   if (idName) domElement.id = idName;
   if (elementType === 'a') domElement.href = createWikiUrl(elementName);
-  if (elementType === 'a') domElement.onclick = () => console.log('clicked', idName);
+  // if (elementType === 'a') domElement.onclick = () => console.log('aref click', domElement);
   if (parent) parent.append(domElement);
   return domElement;
 }
@@ -132,7 +132,7 @@ function createElementExpanded(periodicElement, elementExpanded) {
     createDOMElement('h2', 'periodic-element__expanded-close', 'periodic-element__expanded-close', 
       elementDescription,'X', closeElementExpanded, name);
   } else {
-    createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
+    // createInfoDivs(periodicElement.basics, elementDescription, atomicNumber, '-basics');
     createInfoDivs(periodicElement.short, elementDescription, atomicNumber, '-short');
     createInfoDivs(periodicElement.painting, elementDescription, atomicNumber, '-painting');
   }

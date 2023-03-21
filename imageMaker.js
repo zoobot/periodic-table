@@ -8,8 +8,8 @@ function makeImages() {
     const atomicNum = String(element.atomicNumber).padStart(3, '0');
     const elementName = element.name.toLowerCase();
 
-    const width = 250;
-    const height = 250;
+    const width = 450;
+    const height = 450;
 
     const canvas = createCanvas(width, height);
     const context = canvas.getContext('2d');
