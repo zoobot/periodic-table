@@ -164,13 +164,13 @@ function addTableClickHandler(elementGridCell, elementBody, periodicElement) {
 function backgroundColorFilter(groupBlock) {
   const groupBlockLower = groupBlock.toLowerCase();
   const series = {
-    'alkali metal': '#ce9882',
-    'alkaline earth metal': '#cea9a7',
+    'alkali metal': '#B44314',
+    'alkaline earth metal': '#ad2632',
     'lanthanoid': '#72102a',
     'actinoid': '#70515e',
     'transition metal': '#4b3832',
-    'post-transition metal': '#898989',
-    'metalloid': '#1b85b8',
+    'post-transition metal': '#383737',
+    'metalloid': '#3F51B5',
     'nonmetal': '#1a472a',
     'noble gas': '#1a2c4d',
   }[groupBlockLower];
