@@ -256,6 +256,13 @@ ul {
     padding: 5px;
   }
 
+  .poem {
+    /* word-spacing: 9999px; */
+    width: min-content;
+    white-space: break-space;
+    text-transform: uppercase;
+  }
+
   ul {
     margin-inline-start: 35px;
   }

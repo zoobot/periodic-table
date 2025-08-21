@@ -2,15 +2,32 @@
 const periodicTableData = periodicTable;
 
 /* eslint-disable no-param-reassign */
-const periodicTablePoem = `<h1>Periodic Table</h1>
-<p>The Table is<br>
-The Best and Worst.<br>
-The Table is<br>
-The Universe<br>
-Eat from the Table.<br>
-Run from the Table.<br>
-Be right back<br>
-At the Table. </p>`;
+const periodicTablePoem = `<div class="poem">
+  <h1>Periodic Table</h1>
+  
+  <h1>
+    The Table is
+    The Universe.
+  </h1>
+
+  <h1>
+    The Table is
+    The Best and Worst.
+  </h1>
+
+  <h1>
+    Eat from the Table.
+  </h1>
+  
+  <h1>
+    Run from the Table.
+  </h1>
+
+  <h1>
+    Be right back
+    At the Table.
+  </h1>
+</div>`;
 
 const width = window.innerWidth
   || document.documentElement.clientWidth
