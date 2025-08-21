@@ -3,12 +3,14 @@ const periodicTableData = periodicTable;
 
 /* eslint-disable no-param-reassign */
 const periodicTablePoem = `<h1>Periodic Table</h1>
-<p>The Table is the best and worst<br>
-The Table is the universe<br>
+<p>The Table is<br>
+The Best and Worst.<br>
+The Table is<br>
+The Universe<br>
 Eat from the Table.<br>
 Run from the Table.<br>
-You'll end up<br>
-Right back at the Table. </p>`;
+Be right back<br>
+At the Table. </p>`;
 
 const width = window.innerWidth
   || document.documentElement.clientWidth

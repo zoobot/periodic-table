@@ -192,9 +192,11 @@ ul {
   .container {
     grid-template-rows: 1fr 1fr;
   }
+
   .header {
     display: none;
   }
+
   .image {
     width: 100%;
   }
@@ -212,8 +214,9 @@ ul {
     z-index: 100;
     max-width: 100%;
   }
+
   .periodic-element__expanded {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
     border: 0;
     background-color: transparent;
@@ -237,6 +240,11 @@ ul {
   .periodic-element__expanded-description-basics {
     font-size: .9rem;
   }
+
+  .periodic-element__expanded-description-painting{
+    display: none;
+  }
+
   .periodic-element__expanded-image {
     width: 80%;
   }
@@ -244,8 +252,10 @@ ul {
   .periodic-element {
     border: 0px solid black;
     margin: 0 0 2px 0;
-    max-width: 100%;
+    width: 60px;
+    padding: 5px;
   }
+
   ul {
     margin-inline-start: 35px;
   }
